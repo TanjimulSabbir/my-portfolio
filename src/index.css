@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .big-heading{
+        @apply text-3xl md:text-5xl ;
+    }
+    .UniversalPadding{
+        @apply px-5 sm:px-8 md:px-10 mid-lg:px-16
+    }
+    .UniversalMargin{
+        @apply mx-5 sm:mx-8 md:mx-10 mid-lg:mx-16
+    }
+}

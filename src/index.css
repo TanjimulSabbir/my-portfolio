@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spinnaker&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +11,9 @@
 @layer components{
     .big-heading{
         @apply text-3xl md:text-5xl ;
+    }
+    .TitleText{
+        @apply text-xl;
     }
     .UniversalPadding{
         @apply px-5 sm:px-8 md:px-10 mid-lg:px-16

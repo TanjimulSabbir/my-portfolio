@@ -9,8 +9,7 @@ function Introduction() {
                     Tanjimul Islam Sabbir
                 </h2>
                 <p className='mt-8 lg:w-3/4'>
-                    I’m a MERN stack Developer specializing in Javascript, React, Nodejs, REST API Technologies (and occasionally designing) exceptional digital experiences.
-                    I like to code in Javascript and Python. Currently, I’m focused on Web Backend Technologies (NodeJS), Database and Algorithm.
+                I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.
                 </p>
                 <button className='btn btn-outline capitalize border-emerald-500 mt-14 text-emerald-500'>Check Out My Projects</button>
             </div>

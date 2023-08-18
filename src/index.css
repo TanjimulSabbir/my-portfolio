@@ -13,7 +13,7 @@
         @apply text-3xl md:text-5xl ;
     }
     .TitleText{
-        @apply text-xl;
+        @apply text-2xl;
     }
     .UniversalPadding{
         @apply px-5 sm:px-8 md:px-10 mid-lg:px-16

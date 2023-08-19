@@ -1,31 +1,32 @@
-.container {
-    position: relative;
-    font-weight: 600;
-    background-color: black;
-}
 
-.designation {
-    color: green;
-}
-
-.designation::after {
-    content: "|";
-    position: absolute;
-    right: 0;
+.typewriter h1 {
+    overflow: hidden; /* Hide overflow to create the typing effect */
+    white-space:  pre-wrap; 
+    border-right: 2px solid green; /* Create cursor effect */
+    animation: typing 20s infinite alternate;
+  }
+  
+  @keyframes typing {
+ from{
+    width: 10%;
+ }
+ to{
+    width: 10%;
+ }
+ to{
+    width: 30%;
+ }
+ to{
+    width: 50%;
+ } to{
     width: 100%;
-    background-color: black;
-    animation: animate 4s steps(20) infinite;
-}
-
-@keyframes animate {
-
-    40%,
-    60% {
-        left: 100%;
+ }
+    
+  }
+  
+  @keyframes blink {
+    to {
+      border-color: hotpink; /* Hide cursor */
     }
-
-    100% {
-        left: 0%;
-        opacity: 1;
-    }
-}
+  }
+  

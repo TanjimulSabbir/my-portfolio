@@ -29,13 +29,13 @@ const About = () => {
                         <p> <strong className='text-custom-highLightTextColor'>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
-                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-5 group cursor-pointer">
-                    <div className="w-[300px] h-[360px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:rotate-6">
-                            <img className="rounded-lg absolute bottom-4 right-4"
+                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-12 group cursor-pointer ">
+                    <div className="w-[300px] h-[360px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
+                            <img className="rounded-lg absolute bottom-4 right-6 transform border-2 border-custom-highLightTextColor"
                                 src={TanjimulSabbir}
                                 alt="TanjimulSabbir"
                             />
-                        <div className="w-[296px] h-[376px] absolute mb-12 mr-8 rounded-lg bg-green-500 transition-opacity duration-700 opacity-40 hover:opacity-0"></div>
+                        <div className="w-[296px] h-[372px] absolute mb-12 mr-12 rounded-lg bg-emerald-500 transition-opacity duration-700 opacity-30 hover:opacity-0 transform"></div>
 
                     </div>
                 </div>

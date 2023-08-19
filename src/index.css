@@ -10,7 +10,7 @@
 
 @layer components{
     .big-heading{
-        @apply text-3xl md:text-5xl ;
+        @apply text-3xl md:text-[70px] ;
     }
     .TitleText{
         @apply text-2xl;

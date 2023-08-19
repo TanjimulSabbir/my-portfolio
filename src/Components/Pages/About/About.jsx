@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div id='about' className='rubik py-24'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me</h1>
-            <div className="flex items-start gap-20">
+            <div className="md:flex items-start gap-20">
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>
@@ -29,13 +29,15 @@ const About = () => {
                         <p> <strong className='text-custom-highLightTextColor'>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
-                <div className="w-1/3 item-center justify-center mt-5">
-                    <div className="w-[300px] h-[380px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-xl relative">
-                        <img className="rounded-xl absolute bottom-5 right-5"
-                            src={TanjimulSabbir}
-                            alt="TanjimulSabbir"
-                        />
-                         <div className="w-[295px] h-[375px] absolute mb-10 mr-10  rounded-xl bg-custom-afterHoverTextColor transition-opacity duration-700 opacity-30 "></div>
+                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-5 group">
+                    <div className="w-[300px] h-[380px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-4 group-hover:translate-x-4">
+                      
+                            <img className="rounded-lg absolute bottom-5 right-5 transition duration-700 transform group-hover:-translate-y-4 group-hover:-translate-x-4"
+                                src={TanjimulSabbir}
+                                alt="TanjimulSabbir"
+                            />
+                            <div className="w-[296px] h-[374px] absolute mb-10 mr-10 rounded-lg bg-custom-afterHoverTextColor transition-opacity duration-700 opacity-40 hover:opacity-0"></div>
+                      
                     </div>
                 </div>
             </div>

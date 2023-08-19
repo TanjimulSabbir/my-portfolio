@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    font-weight: 600;
+    background-color: black;
+}
+
+.designation {
+    color: green;
+}
+
+.designation::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    animation: animate 4s steps(20) infinite;
+}
+
+@keyframes animate {
+
+    40%,
+    60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}

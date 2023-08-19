@@ -5,28 +5,43 @@ const Typewriter = () => {
 
   const [typedText, setTypedText] = useState('');
   const [index, setIndex] = useState(0);
+  const [completed, setCompleted] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const typingInterval = setInterval(() => {
-      if (index <= text.length) {
+      if (index <= text.length && !completed && !isPaused) {
         setTypedText(text.substring(0, index));
         setIndex(prevIndex => prevIndex + 1);
-      } else {
-        setIndex(0);
+      } else if (index === text.length + 1) {
+        setCompleted(true);
+        clearInterval(typingInterval);
+        setTimeout(() => {
+          setTypedText('');
+          setIndex(0);
+          setCompleted(false);
+        }, 3000); // Delay before starting the animation again
       }
     }, 100); // Delay between each character
 
     return () => {
       clearInterval(typingInterval);
     };
-  }, [index, text]);
+  }, [index, text, completed, isPaused]);
+
+  const handlePauseResume = () => {
+    setIsPaused(!isPaused);
+  };
 
   return (
-    <div className="typewriter">
-      <p className="mt-20 lg:w-2/3 mx-auto text-justify">
+    <div className="my-20 typewriter">
+      <p className="lg:w-2/3 mx-auto text-center">
         <span className="text-animate">{typedText}</span>
         <span className="cursor">{index <= text.length ? '|' : ''}</span>
       </p>
+      <button onClick={handlePauseResume}>
+        {isPaused ? 'Resume' : 'Pause'}
+      </button>
     </div>
   );
 };

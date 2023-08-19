@@ -42,6 +42,16 @@ const Typewriter = () => {
                 return <span key={idx} className="bold-letter">{char}</span>;
               } else if (idx >= 119 && idx <= 141) { // 'cutting-edge technologies'
                 return <span key={idx} className="bold-letter">{char}</span>;
+              } else if (idx >= 56 && idx <= 61) { // 'passion'
+                return <span key={idx} className="blue-letter">{char}</span>;
+              } else if (idx >= 95 && idx <= 104) { // 'interactive'
+                return <span key={idx} className="underline-letter">{char}</span>;
+              } else if (idx >= 35 && idx <= 40) { // 'engage'
+                return <span key={idx} className="rainbow-letter">{char}</span>;
+              } else if (idx >= 41 && idx <= 47) { // 'captivate'
+                return <span key={idx} className="rotate-letter">{char}</span>;
+              } else if (idx >= 136 && idx <= 142) { // 'users.'
+                return <span key={idx} className="glow-letter">{char}</span>;
               }
               return char;
             })}

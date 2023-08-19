@@ -22,7 +22,7 @@ export default {
         custom: {
           BgColor:"#8892b0",
           TitleColor: '#ccd6f6',
-          SubTitleColor:"#8892b0",
+          TextColor:"#8892b0",
           highLightTextColor:"#64ffda",
           InfoBgColor:"#a8b2d1",
           afterHoverTextColor:"#64ffda"

@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div id='about' className='rubik py-24'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me</h1>
-            <div className="md:flex items-start gap-20">
+            <div className="md:flex items-start gap-20 text-custom-TextColor">
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>
@@ -29,15 +29,14 @@ const About = () => {
                         <p> <strong className='text-custom-highLightTextColor'>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
-                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-5 group">
-                    <div className="w-[300px] h-[380px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-4 group-hover:translate-x-4">
-                      
-                            <img className="rounded-lg absolute bottom-5 right-5 transition duration-700 transform group-hover:-translate-y-4 group-hover:-translate-x-4"
+                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-5 group cursor-pointer">
+                    <div className="w-[300px] h-[360px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:rotate-6">
+                            <img className="rounded-lg absolute bottom-4 right-4"
                                 src={TanjimulSabbir}
                                 alt="TanjimulSabbir"
                             />
-                            <div className="w-[296px] h-[374px] absolute mb-10 mr-10 rounded-lg bg-custom-afterHoverTextColor transition-opacity duration-700 opacity-40 hover:opacity-0"></div>
-                      
+                        <div className="w-[296px] h-[376px] absolute mb-12 mr-8 rounded-lg bg-green-500 transition-opacity duration-700 opacity-40 hover:opacity-0"></div>
+
                     </div>
                 </div>
             </div>

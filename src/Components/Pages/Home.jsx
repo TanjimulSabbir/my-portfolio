@@ -8,14 +8,16 @@ import Work from "./Work/Work"
 
 const Home = () => {
     return (
-        <div className='mid-lg:w-4/5 py-24 mx-auto'>
+        <div>
             <Introduction />
-            <About/>
-            <Experience/>
-            <Work/>
-            <Contact/>
-            <SocialLink/>
-            <Email/>
+            <div className='mid-lg:w-4/5 py-24 mx-auto'>
+                <About />
+                <Experience />
+                <Work />
+                <Contact />
+                <SocialLink />
+                <Email />
+            </div>
         </div>
     )
 }

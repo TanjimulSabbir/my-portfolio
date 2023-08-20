@@ -11,7 +11,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar py-4">
+        <div className="navbar py-4 bg-[#EF4123]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-outline UniversalMargin mid-lg:hidden">
@@ -21,7 +21,7 @@ const Navbar = () => {
                         {Menu}
                     </ul>
                 </div>
-                {/* <a href='#Tanjimul' className="px-4 te border border-emerald-500 text-xl rounded-lg">Tanjimul</a> */}
+                {/* <a href='#Tanjimul' className="text-lg">Tanjimul Sabbir</a> */}
             </div>
 
             <div className="navbar-center lg:navbar-end hidden mid-lg:flex">

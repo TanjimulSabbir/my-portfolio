@@ -15,11 +15,14 @@ export default {
     },
     extend: {
       fontFamily:{
-        "Calibre":"Heebo, sans-serif",
-        "Fira-Mono":"Fira Mono, monospace",
+        "Calibre":['Heebo', 'sans-serif'],
+        "Fira-Mono":['Fira Mono', 'monospace'],
+        "Roboto":['Roboto Mono', 'monospace'],
+        "Exo2":['Exo 2', 'sans-serif'],
       },
       colors: {
         custom: {
+          nameColor:"#212529",
           BgColor:"#8892b0",
           TitleColor: '#ccd6f6',
           TextColor:"#8892b0",

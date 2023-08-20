@@ -14,7 +14,7 @@
   opacity: 0;
 }
 
-.skew-animate, .blue-letter, .rainbow-letter {
+.skew-animate,  .rainbow-letter {
   animation: skewIn 1s ease-in-out forwards;
   transform: skewX(-20deg) scaleX(0);
   transform-origin: top left;
@@ -46,32 +46,29 @@
   color: #33ff75; /* Green color */
 }
 
-.red-letter {
+/* .red-letter {
   color: #02a63e; /* Red color */
+/* } */
+
+
+/* .yellow-letter {
+  color: #ffc933; Yellow color
 }
 
-.blue-letter {
-  color: #0a3dd6; /* Blue color */
-}
-
-.yellow-letter {
-  color: #ffc933; /* Yellow color */
-}
-
-.blue-bold-letter {
+/* .blue-bold-letter {
   color: #336cff; /* Blue color */
-  font-weight: bold;
-}
-
+  /* font-weight: bold; */
+/* }  */
+/* 
 .rainbow-letter {
   background-image: linear-gradient(to left, #ff5733, #33ff75, #336cff, #ff33c9, #ffc933);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   animation: rainbow 3s linear infinite;
-}
+}  */
 
-.glow-letter {
+/* .glow-letter {
   color: #ff5733;
   text-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
 }
@@ -79,4 +76,4 @@
 @keyframes rainbow {
   0% { background-position: 0 0; }
   100% { background-position: 100% 0; }
-}
+} */ 

@@ -17,7 +17,7 @@ const Typewriter = () => {
         setTimeout(() => {
           setTypedText('');
           setIndex(0);
-        }, 3000); // Delay before starting the animation again
+        }, 4000); // Delay before starting the animation again
       }
     }, 100); // Delay between each character
 
@@ -28,7 +28,7 @@ const Typewriter = () => {
 
   return (
     <div className="my-20 typewriter">
-      <p className="lg:w-2/3 mx-auto text-center">
+      <p className="lg:w-2/3 mx-auto text-green-500">
         <span className="text-animate">
           <span className="skew-animate">
             {typedText.split('').map((char, idx) => {
@@ -36,56 +36,54 @@ const Typewriter = () => {
               if (idx >= 13 && idx <= 32) {
                 styles.push("highlight-letter");
               }
-              if (idx === 50) {
-                styles.push("green-letter");
-              }
-              if (idx === 87) {
-                styles.push("red-letter");
-              }
-              if (idx >= 98 && idx <= 108) {
-                styles.push("blue-letter");
-              }
-              if (idx >= 115 && idx <= 126) {
-                styles.push("yellow-letter");
-              }
-              if (idx >= 54 && idx <= 59) {
-                styles.push("blue-bold-letter");
-              }
-              if (idx >= 4 && idx <= 14) {
-                styles.push("underline-letter");
-              }
-              if (idx >= 94 && idx <= 104) {
-                styles.push("rainbow-letter");
-              }
-              if (idx >= 81 && idx <= 85) {
-                styles.push("glow-letter");
-              }
-              if (idx >= 88 && idx <= 105) {
-                styles.push("highlight-letter");
-              } if (idx >= 114 && idx <= 139) {
-                styles.push("highlight-letter");
-              } if (idx >= 150 && idx <= 176) {
-                styles.push("highlight-letter");
-              }
-              if (idx >= 189 && idx <= 200) {
-                styles.push("highlight-letter");
-              }
+            
+              // if (idx === 87) {
+              //   styles.push("red-letter");
+              // }
+              // if (idx >= 98 && idx <= 108) {
+              //   styles.push("blue-letter");
+              // }
+              // if (idx >= 115 && idx <= 126) {
+              //   styles.push("yellow-letter");
+              // }
+              // if (idx >= 54 && idx <= 59) {
+              //   styles.push("blue-bold-letter");
+              // }
+              // if (idx >= 4 && idx <= 14) {
+              //   styles.push("underline-letter");
+              // }
+              // if (idx >= 94 && idx <= 104) {
+              //   styles.push("rainbow-letter");
+              // }
+              // if (idx >= 81 && idx <= 85) {
+              //   styles.push("glow-letter");
+              // }
+              // if (idx >= 88 && idx <= 105) {
+              //   styles.push("highlight-letter");
+              // } if (idx >= 114 && idx <= 139) {
+              //   styles.push("highlight-letter");
+              // } if (idx >= 150 && idx <= 176) {
+              //   styles.push("highlight-letter");
+              // }
+              // if (idx >= 189 && idx <= 200) {
+              //   styles.push("highlight-letter");
+              // }
 
-              if (idx >= 210 && idx <= 217) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 210 && idx <= 217) {
+              //   styles.push("highlight-letter");
+              // }
 
-              if (idx >= 235 && idx <= 246) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 235 && idx <= 246) {
+              //   styles.push("highlight-letter");
+              // }
 
-              if (idx >= 269 && idx <= 278) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 269 && idx <= 278) {
+              //   styles.push("highlight-letter");
+              // }
 
-              if (idx >= 280 && idx <= 296) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 280 && idx <= 296) {
+              //   styles.push("highlight-letter");
+              // }
 
 
               if (styles.length > 0) {

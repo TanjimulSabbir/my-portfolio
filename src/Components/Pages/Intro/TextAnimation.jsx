@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./TextAnimationCss.css"
 
-const Typewriter = () => {
-  const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
-
+const Typewriter = ({text}) => {
   const [typedText, setTypedText] = useState('');
   const [index, setIndex] = useState(0);
 
@@ -17,7 +15,7 @@ const Typewriter = () => {
         setTimeout(() => {
           setTypedText('');
           setIndex(0);
-        }, 4000); // Delay before starting the animation again
+        }, 2000); // Delay before starting the animation again
       }
     }, 100); // Delay between each character
 
@@ -27,15 +25,15 @@ const Typewriter = () => {
   }, [index, text]);
 
   return (
-    <div className="my-20 typewriter">
-      <p className="lg:w-2/3 mx-auto text-green-500">
+    <div className="mt-5 typewriter">
+      <p className=" text-custom-nameColor">
         <span className="text-animate">
           <span className="skew-animate">
             {typedText.split('').map((char, idx) => {
               const styles = [];
-              if (idx >= 13 && idx <= 32) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 13 && idx <= 32) {
+              //   styles.push("highlight-letter");
+              // }
             
               // if (idx === 87) {
               //   styles.push("red-letter");

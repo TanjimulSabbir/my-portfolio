@@ -1,7 +1,7 @@
 import TanjimulSabbir from "../../../assets/Photos/TanjimulSabbir.jpg"
 const About = () => {
     return (
-        <div id='about' className='rubik py-24'>
+        <div id='about' className='py-24'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me</h1>
             <div className="md:flex items-start gap-20 text-custom-TextColor">
                 <div className="flex-1">
@@ -14,18 +14,22 @@ const About = () => {
                         <p>
                             <strong className='text-custom-highLightTextColor'> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux and GraphQL joined the mix for smoother operations.
                         </p>
-
+<br />
                         <p>
                             <strong className="text-custom-highLightTextColor"> While I've explored backend technologies like Node.js, </strong>
-                            Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in making things work seamlessly. <br />
+                            Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in making things work seamlessly. 
+                            </p>
+                            <br />
+                            <p>
                             <strong className='text-custom-highLightTextColor'>I recently had an opportunity, </strong>
-                            to work with a great company in India. Although I had to step back due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is key for me. I believe in the power of teamwork, where every voice matters.
+                            to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is key for me. I believe in the power of teamwork, where every voice matters.
                         </p>
                         <p>
                             <strong className='text-custom-highLightTextColor'>Outside of coding, </strong>
 
                             I enjoy nature photograpy and music, which adds a dash of inspiration to my work.
                         </p>
+                        <br />
                         <p> <strong className='text-custom-highLightTextColor'>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>

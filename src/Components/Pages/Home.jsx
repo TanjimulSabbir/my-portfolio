@@ -15,9 +15,10 @@ const Home = () => {
                 <Experience />
                 <Work />
                 <Contact />
-                <SocialLink />
-                <Email />
+               
             </div>
+            <Email />
+                <SocialLink />
         </div>
     )
 }

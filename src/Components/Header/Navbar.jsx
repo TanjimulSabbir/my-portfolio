@@ -11,7 +11,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar py-4 bg-[#EF4123]">
+        <div className="navbar py-4 bg-[#EF412D]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-outline UniversalMargin mid-lg:hidden">

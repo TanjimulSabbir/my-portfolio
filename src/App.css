@@ -1,7 +1,8 @@
 body{
-    font-family: 'Inter', sans-serif;
+    font-family:'Roboto Mono', monospace;
     color: whitesmoke;
     background: "#8892b0";
+    font-weight: 400;
 }
 a{
     font-family: 'Fira Mono', monospace;
@@ -14,4 +15,8 @@ a{
 }
 .merina{
     font-family: 'Spinnaker', sans-serif;
+}
+
+.Exo2_SanSer{
+    font-family: 'Exo 2', sans-serif;
 }

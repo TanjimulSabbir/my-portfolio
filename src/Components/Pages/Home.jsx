@@ -5,6 +5,7 @@ import Email from "./Email/Email"
 import Experience from "./Experience/Experience"
 import SocialLink from "./SocialLink/SocialLink"
 import Work from "./Work/Work"
+import Footer from "../Footer/Footer"
 
 const Home = () => {
     return (
@@ -15,10 +16,10 @@ const Home = () => {
                 <Experience />
                 <Work />
                 <Contact />
-               
-            </div>
-            <Email />
+                <Email />
                 <SocialLink />
+            </div>
+            <Footer/>
         </div>
     )
 }

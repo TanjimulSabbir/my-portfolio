@@ -12,13 +12,13 @@ function Introduction() {
                     <h2 className='Exo2_SanSer text-black text-3xl sm:text-4xl lg:text-[55px] xl:text-6xl font-extrabold uppercase'>
                    Tanjimul Islam Sabbir
                     </h2>
-                    <h1 className="mt-2 lg:mt-4">Front-end Developer| Reactjs Developer</h1>
+                    <h1 className="mt-2 lg:mt-4 font-bold text-black">Front-end Developer| Reactjs Developer</h1>
                     <Typewriter text={text} />
                     <button className="mt-5 uppercase border border-black px-14 py-4">get in touch</button>
                 </div>
             </div>
         
-                <div className="flex-1 h-full flex items-center justify-center lg:max-w-[435px]">
+                <div className="flex-1 w-full h-full flex items-center lg:mr-5 lg:max-w-[435px]">
                     <img className="w-[435px]" src={intro} alt="TanjimulSabbir" />
                 </div>
         </div>

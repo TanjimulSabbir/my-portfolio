@@ -2,10 +2,10 @@ import TanjimulSabbir from "../../../assets/Photos/TanjimulSabbir.jpg"
 const About = () => {
     return (
         <div id='about' className='py-24'>
-            <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me</h1>
+            <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me </h1>
             <div className="md:flex items-start gap-20 text-custom-TextColor">
                 <div className="flex-1">
-                    <div className='text-justify'>
+                    <div className='text-justify text-sm'>
                         <p>
                             <span className='text-2xl text-custom-highLightTextColor'>H</span>i there
                             I'm Tanjimul Islam Sabbir, a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began as I stepped into the halls of Rajshahi University, setting the stage for an extraordinary odyssey. I got my first own computer and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
@@ -39,7 +39,7 @@ const About = () => {
                                 src={TanjimulSabbir}
                                 alt="TanjimulSabbir"
                             />
-                        <div className="w-[296px] h-[372px] absolute mb-12 mr-8 rounded-lg bg-emerald-500 transition-opacity duration-700 opacity-30 hover:opacity-0 transform"></div>
+                        <div className="w-[296px] h-[372px] absolute mb-12 mr-8 rounded-lg bg-green-500 transition-opacity duration-700 opacity-30 hover:opacity-0 transform"></div>
 
                     </div>
                 </div>

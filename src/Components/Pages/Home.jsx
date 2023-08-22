@@ -13,7 +13,7 @@ const Home = () => {
             <Introduction />
             <div className='mid-lg:w-4/5 py-24 mx-auto'>
                 <About />
-                <Experience />
+                {/* <Experience /> */}
                 <Work />
                 <Contact />
                 <Email />

@@ -16,8 +16,8 @@ const Work = () => {
                     <p className="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
                     <p className="mb-4"><small>VS Code</small></p>
                     <div className="flex items-center space-x-8 text-xl">
-                      <a href="/"><FiGithub /> </a>
-                       <a className="" href=""> <LuExternalLink /></a>
+                        <a href="/"><FiGithub /> </a>
+                        <a className="" href=""> <LuExternalLink /></a>
                     </div>
                 </div>
             </div>

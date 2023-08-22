@@ -10,11 +10,11 @@ const Work = () => {
                     <img src="" alt="" srcset="" />
                 </div>
                 <div className="flex-1">
-                    <h2 className="mb-4">Featured Project</h2>
-                    <h1 className="mb-5">Paradise Palam</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
+                    <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
+                    <h1 className="mb-8 text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor">Paradise Palam</h1>
+                    <p className="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
                     <p><small></small></p>
-                    <div className="flex space-x-3">
+                    <div className="flex space-x-3 text-2xl">
                       <a href="/"><FiGithub /> </a>
                        <a href=""> <IoLinkOutline /></a>
                     </div>

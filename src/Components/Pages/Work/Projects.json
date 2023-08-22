@@ -1,0 +1,34 @@
+{
+    "Projects": [
+        {
+            "projectName": "Paradise Palms",
+            "Description": "",
+            "image": "https://www.awesomescreenshot.com/image/42394520?key=a8e9dc126462c7dd7ee4ac968bbd2203",
+            "Technology": "",
+            "Link": {
+                "github": "",
+                "live": ""
+            }
+        },
+        {
+            "projectName": "Paradise Palms",
+            "Description": "",
+            "image": "",
+            "Technology": "",
+            "Link": {
+                "github": "",
+                "live": ""
+            }
+        },
+        {
+            "projectName": "Paradise Palms",
+            "Description": "",
+            "image": "",
+            "Technology": "",
+            "Link": {
+                "github": "",
+                "live": ""
+            }
+        }
+    ]
+}

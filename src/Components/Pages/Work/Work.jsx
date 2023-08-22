@@ -5,9 +5,9 @@ const Work = () => {
     return (
         <div id='work' className='mid-lg:w-4/5 py-24'>
             <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-14'>Some Things I've built<span className="Section-Heading"></span></h1>
-            <div className="mid-lg:flex">
+            <div className="mid-lg:flex items-center justify-center gap-12">
                 <div className="flex-1">
-                    <img src="" alt="" srcset="" />
+                    <img className="rounded" src="https://i.ibb.co/mzRSWTb/bed06.jpg" alt="" srcset="" />
                 </div>
                 <div className="flex-1">
                     <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>

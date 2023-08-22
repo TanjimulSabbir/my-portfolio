@@ -14,13 +14,13 @@ const Footer = () => {
                         <small className='text-[9px]'>
                             Developed by <a className='text-green-500' href="https://www.linkedin.com/in/TanjimulSabbir" target='_blank'>Tanjimul Islam Sabbir.</a>
                             </small>
-                            <div className='flex justify-center items-center space-x-2'>
+                            {/* <div className='flex justify-center items-center space-x-2'>
                                 <a className='list-none text-[10px] text-white' href="https://github.com/TanjimulSabbir" target='_blank'><FiGithub /> </a>
                                 <a className='list-none text-[10px] text-white' href="https://www.linkedin.com/in/TanjimulSabbir" target='_blank'><FiLinkedin /> </a>
                                 <a className='list-none text-[10px] text-white' href="https://www.facebook.com/tanjimulsabbir.brahminykite" target='_blank'><FiFacebook /> </a>
 
                                 <a className='list-none text-[10px] text-white' href="https://www.discord.com/tanjimulsabbir" target='_blank'><  BsDiscord /> </a>
-                            </div>
+                            </div> */}
                     </div>
                 </div>
             </footer>

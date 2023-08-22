@@ -9,12 +9,12 @@ const Work = () => {
                 <div className="flex-1 max-h-[500px]">
                     <img className="rounded" src="https://i.ibb.co/mzRSWTb/bed06.jpg" alt="" srcset="" />
                 </div>
-                <div className="flex-1 border text-end relative">
+                <div className="flex-1 text-end relative">
                     <div>
                     <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
                     <h1 className="mb-8 text-custom-TitleColor
                     text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>
-                    <p className="mb-10 bg-[#0d2446] p-2 rounded text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
+                    <p className="mb-10 bg-[#0d2446] p-2 rounded text-start text-custom-TextColor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
                     <p className="mb-4"><small>VS Code</small></p>
                     <div className="flex items-center space-x-8 text-xl justify-end">
                         <a href="/"><FiGithub /> </a>

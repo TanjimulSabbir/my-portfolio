@@ -6,7 +6,7 @@ import Email from '../Email/Email';
 
 const SocialLink = () => {
     return (
-        <div className='hidden mid-lg:block mid-lg:fixed mid-lg:bottom-32 mid-lg:left-8'>
+        <div className='hidden  mid-lg:fixed mid-lg:bottom-32 mid-lg:hidden'>
             <div className='flex justify-center items-center flex-row mid-lg:flex-col space-x-8 mid-lg:space-x-0 mid-lg:space-y-8'>
                 <a className='list-none text-xl text-white' href="/#"><FiGithub /> </a>
                 <a className='list-none text-xl text-white' href="/#"><FiLinkedin /> </a>

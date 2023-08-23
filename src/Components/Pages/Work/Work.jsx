@@ -10,20 +10,20 @@ const Work = () => {
             {/* Projects */}
             <div>
                 {/* image part */}
-                <div className="flex relative">
-                    <div className="flex-1">
+                <div className="relative items-center">
+                    <div className="">
                         <div className="w-[500px] h-[400px] relative">
                             {/* Background image */}
                             <div className="bg-cover bg-center rounded "
                                 style={{ backgroundImage: `url(${backgroundImage})`, height: '100%' }}>
                             </div>
-                            <div className="absolute inset-0 transition duration-500 cursor-pointer bg-green-500 bg-opacity-30 hover:bg-opacity-0"></div>
+                            <div className="absolute inset-0 transition duration-500 cursor-pointer bg-green-500 bg-opacity-30 hover:bg-opacity-0 z-10"></div>
                         </div>
                     </div>
                     {/* Text Part */}
-                    <div className="flex-1">
-                        <div className="text-end flex items-center justify-end">
-                            <div className="inline-block">
+                    <div className="">
+                        <div className="absolute w-[60%] h-full top-0 right-0">
+                            <div className="text-end">
                                 <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
                                 <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>
 

@@ -2,13 +2,14 @@ import { useState } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+    const liStyle="hover:text-custom-highLightTextColor rounded transition duration-500"
     const Menu = <>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#about">About</a></li>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#experience">Experience</a></li>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#work">Works</a></li>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#contact">Contact</a></li>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#contact">Blog</a></li>
-        <li className="hover:bg-custom-highLightTextColor"><a href="#Resume" >Resume</a></li>
+        <li className={liStyle}><a href="#about">About</a></li>
+        <li className={liStyle}><a href="#experience">Experience</a></li>
+        <li className={liStyle}><a href="#work">Works</a></li>
+        <li className={liStyle}><a href="#contact">Contact</a></li>
+        <li className={liStyle}><a href="#contact">Blog</a></li>
+        <li className={liStyle}><a href="#Resume" >Resume</a></li>
     </>
 
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                 {/* <a href='#Tanjimul' className="text-lg">Tanjimul Sabbir</a> */}
             </div>
             <div className="navbar-center lg:navbar-end hidden mid-lg:flex">
-                <ul className="menu menu-horizontal px-1 uppercase">
+                <ul className="menu-horizontal space-x-10 mr-5 px-1 uppercase">
                     {Menu}
                 </ul>
             </div>

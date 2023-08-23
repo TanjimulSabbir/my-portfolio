@@ -2,7 +2,7 @@ import { VscDebugBreakpointDataUnverified } from "react-icons/vsc"
 
 const Experience = () => {
     return (
-        <div id='experience' className='mid-lg:w-3/5 py-24 mx-auto'>
+        <div id='experience' className='lg:w-3/5 py-24 mx-auto'>
             {/* Heading */}
             <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-14'>Where I'v worked<span className="Section-Heading"></span></h1>
             <div className='mt-14 flex space-x-4 md:space-x-20 justify-center'>
@@ -14,7 +14,7 @@ const Experience = () => {
                 <div>
                     <div className="border-l border-custom-highLightTextColor pl-4">
                         <div className="flex flex-col sm:items-center sm:flex-row sm:space-x-3">
-                            <h1>Front-end Developer</h1>
+                            <h1>Jr Front-end Developer</h1>
                             <p className="text-custom-highLightTextColor mb-4 sm:mb-0 text-[10px] sm:text-base">@Inventive Web Service</p>
                         </div>
                         <div className="">

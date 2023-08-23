@@ -1,9 +1,9 @@
-import intro from "../../../assets/Photos/Bg-Removed/Remove background project.png"
+import intro from "../../../assets/Photos/Bg-Removed/no-bg-grayscal.png"
 import Typewriter from "./TextAnimation";
 function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
     return (
-        <div className="min-h-screen w-full bg-[#EF412D] lg:flex items-center justify-center text-black">
+        <div className="min-h-screen w-full bg-[#EF412D] lg:flex justify-center items-center text-black relative">
             <div className="UniversalMargin flex-1 z-10">
                 <div className="UniversalMargin">
                     <h4 className='mb-2'>
@@ -18,8 +18,8 @@ function Introduction() {
                 </div>
             </div>
         
-                <div className="flex-1 w-full h-full flex items-center lg:mr-5 lg:max-w-[435px]">
-                    <img className="w-[435px]" src={intro} alt="TanjimulSabbir" />
+                <div className="flex-1 w-full h-full lg:max-w-[435px] flex lg:block item-center justify-center lg:mr-5 border">
+                    <img className="w-[435px] mt-14" src={intro} alt="TanjimulSabbir" />
                 </div>
         </div>
     )

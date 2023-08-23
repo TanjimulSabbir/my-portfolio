@@ -18,8 +18,10 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-outline UniversalMargin text-4xl text-black border-none hover:bg-transparent mid-lg:hidden">
                       <RxHamburgerMenu/>
                     </label>
-                    <ul tabIndex={0} className="absolute inset-0 mt-24 p-8 shadow rounded-box w-screen h-screen z-50 space-y-5 bg-black bg-opacity-70">
+                    <ul tabIndex={0} className="fixed inset-0 mt-20 flex items-center shadow w-screen h-screen z-50 space-y-5 bg-black bg-opacity-70 uppercase Exo2_SanSer">
+                        <>
                         {Menu}
+                        </>
                     </ul>
                 </div>
                 {/* <a href='#Tanjimul' className="text-lg">Tanjimul Sabbir</a> */}

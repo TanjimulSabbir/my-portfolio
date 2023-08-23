@@ -23,11 +23,11 @@ const Work = () => {
                 </div>
                 {/* Text Part */}
                 <div className="">
-                    <div className="absolute mid-lg:static mid-lg:text-end flex items-center justify-end p-4 mid-lg:p-0">
+                    <div className="absolute inset-0 mid-lg:static mid-lg:text-end flex items-center justify-end p-4 mid-lg:p-0">
                         <div className="mr-0 ">
                             <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
                             <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>
-                            <div className="absolute w-[65%] h-[80px] right-0 bottom-[50%]">
+                            <div className="mid-lg:absolute mid-lg:w-[60%] mid-lg:h-[80px] right-0 bottom-[50%]">
                                 <p className="mb-10 mid-lg:bg-[#0d2446] text-base mid-lg:text-sm mid-lg:p-4 lg:py-5 lg:px-8 rounded text-custom-TextColor mid-lg:shadow-2xl z-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
 
 

@@ -1,4 +1,4 @@
-import TanjimulSabbir from "../../../assets/Photos/About/Screenshot_20220427-084825.jpg"
+import TanjimulSabbir from "../../../assets/Photos/About/red-wall-bg-white.png"
 const About = () => {
     return (
         <div id='about' className='py-24'>
@@ -35,12 +35,14 @@ const About = () => {
                     </div>
                 </div>
                 <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-12 group cursor-pointer ">
-                    <div className="w-[300px] h-[360px] flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
-                        <img className="absolute rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
+                  
+                    <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
+
+                        <img className="w-[300px] h-[360px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
                             src={TanjimulSabbir}
                             alt="TanjimulSabbir"
                         />
-                        <div className="w-[296px] h-[360px] absolute mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition-opacity duration-700 opacity-50 hover:opacity-0 transform"></div>
+                        <div className="absolute w-full h-full mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition duration-700 bg-opacity-50 hover:bg-opacity-0 transform"></div>
                     </div>
                 </div>
             </div>

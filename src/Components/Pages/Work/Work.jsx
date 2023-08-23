@@ -10,7 +10,7 @@ const Work = () => {
 
             {/* Projects */}
             <div className="lg:grid grid-cols-2 relative">
-                   {/* image part */}
+                {/* image part */}
                 <div className="">
                     <div className=" relative">
                         {/* Background image */}
@@ -23,7 +23,7 @@ const Work = () => {
                 </div>
                 {/* Text Part */}
                 <div className="">
-                    <div className="lg:text-end flex items-center justify-end p-4 lg:p-0">
+                    <div className="absolute inset-0 lg:relative lg:text-end flex items-center justify-end p-4 lg:p-0">
                         <div className="mr-0 ">
                             <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
                             <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>

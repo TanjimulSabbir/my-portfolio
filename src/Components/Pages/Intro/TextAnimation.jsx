@@ -31,9 +31,9 @@ const Typewriter = ({text}) => {
           <span className="skew-animate">
             {typedText.split('').map((char, idx) => {
               const styles = [];
-              if (idx >= 13 && idx <= 32) {
-                styles.push("highlight-letter");
-              }
+              // if (idx >= 13 && idx <= 32) {
+              //   styles.push("highlight-letter");
+              // }
             
               // if (idx === 87) {
               //   styles.push("red-letter");

@@ -10,9 +10,11 @@ const Work = () => {
 
                 <div className="relative w-full">
                     <div
-                        className="flex-1 w-[500px] h-[400px] max-h-[500px] bg-cover bg-center rounded"
+                        className="flex-1 w-[500px] h-[400px] max-h-[500px] bg-cover bg-center rounded relative"
                         style={{ backgroundImage: `url(${backgroundImage})` }}
-                    ></div>
+                    >
+                          <div className="absolute inset-0 bg-custom-afterHoverTextColor bg-opacity-30 rounded"></div>
+                    </div>
 
                     <div className="text-end absolute inset-0 flex items-center justify-end">
                         <div className="mr-0 w-[65%]">

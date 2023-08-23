@@ -9,14 +9,16 @@ const Work = () => {
             <div className="">
 
                 <div className="relative w-full">
-                    <div
-                        className="flex-1 w-[500px] h-[400px] max-h-[500px] bg-cover bg-center rounded relative"
-                        style={{ backgroundImage: `url(${backgroundImage})` }}
-                    >
-                          <div className="absolute inset-0 bg-custom-afterHoverTextColor bg-opacity-30 rounded"></div>
+                    <div className="flex-1 w-[500px] h-[400px] relative">
+                        {/* Background image */}
+                        <div className="bg-cover bg-center rounded group"
+                            style={{ backgroundImage: `url(${backgroundImage})`, height: '100%' }}
+                        >
+                            <div className="absolute w-full h-full transition duration-500 cursor-pointer bg-green-500 bg-opacity-300 hover:bg-opacity-0">fdfds</div>
+                        </div>
                     </div>
 
-                    <div className="text-end absolute inset-0 flex items-center justify-end">
+                    <div className="absolute inset-0 text-end flex items-center justify-end">
                         <div className="mr-0 w-[65%]">
                             <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
                             <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>

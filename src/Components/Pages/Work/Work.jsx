@@ -11,16 +11,18 @@ const Work = () => {
             {/* Projects */}
             <div className="mid-lg:grid grid-cols-2 relative">
                 {/* image part */}
-                <div className="">
-                    <div className="relative w-full h-full mid-lg:w-full mid-lg:h-[400px]">
-                        {/* Background image */}
-                        {/* <div className="bg-cover bg-center rounded"
+                <a href="">
+                    <div className="">
+                        <div className="relative w-full h-full mid-lg:w-full mid-lg:h-[400px]">
+                            {/* Background image */}
+                            {/* <div className="bg-cover bg-center rounded"
                             style={{ backgroundImage: `url(${backgroundImage})`, height: '100%' }}>
                         </div> */}
-                        <img className="w-full h-full mid-lg:w-full mid-lg:h-[400px] rounded" src={backgroundImage} alt="" srcset="" />
-                        <div className="absolute inset-0 w-full h-full transition duration-500 cursor-pointer bg-[#0d2446] mid-lg:bg-green-500 bg-opacity-90 mid-lg:bg-opacity-30 hover:opacity-0"></div>
+                            <img className="w-full h-full mid-lg:w-full mid-lg:h-[400px] rounded" src={backgroundImage} alt="" srcset="" />
+                            <div className="absolute inset-0 w-full h-full transition duration-500 cursor-pointer bg-[#0d2446] mid-lg:bg-green-500 bg-opacity-90 mid-lg:bg-opacity-30 hover:opacity-0"></div>
+                        </div>
                     </div>
-                </div>
+                </a>
                 {/* Text Part */}
                 <div className="">
                     <div className="absolute inset-0 mid-lg:static mid-lg:text-end flex items-center justify-end p-4 mid-lg:p-0">
@@ -42,7 +44,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 

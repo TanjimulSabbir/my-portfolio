@@ -4,7 +4,7 @@ function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
     return (
         <div className="min-h-screen w-full bg-[#EF412D] lg:flex justify-center text-black dark:text-black relative">
-            <div className="IntroMargin flex-1 flex pt-24 lg:pt-0 items-center lg:justify-center z-10">
+            <div className="IntroMargin flex-1 flex pt-10 sm:pt-24 lg:pt-0 items-center lg:justify-center z-10">
                 <div className="">
                     <h4 className='mb-2'>
                         Hi, my name is

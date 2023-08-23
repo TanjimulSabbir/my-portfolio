@@ -3,12 +3,12 @@ import { RxHamburgerMenu } from "react-icons/rx"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     const Menu = <>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#work">Works</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#contact">Blog</a></li>
-        <li><a href="#Resume" >Resume</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#about">About</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#experience">Experience</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#work">Works</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#contact">Contact</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#contact">Blog</a></li>
+        <li className="hover:bg-custom-highLightTextColor"><a href="#Resume" >Resume</a></li>
     </>
 
     return (

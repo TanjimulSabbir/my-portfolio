@@ -1,4 +1,4 @@
-import TanjimulSabbir from "../../../assets/Photos/TanjimulSabbir.jpg"
+import TanjimulSabbir from "../../../assets/Photos/About/Screenshot_20220427-084825.jpg"
 const About = () => {
     return (
         <div id='about' className='py-24'>
@@ -40,7 +40,7 @@ const About = () => {
                             src={TanjimulSabbir}
                             alt="TanjimulSabbir"
                         />
-                        <div className="w-[296px] h-[372px] absolute mb-12 mr-8 rounded-lg bg-green-500 transition-opacity duration-700 opacity-30 hover:opacity-0 transform"></div>
+                        <div className="w-[296px] h-[360px] absolute mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition-opacity duration-700 opacity-50 hover:opacity-0 transform"></div>
                     </div>
                 </div>
             </div>

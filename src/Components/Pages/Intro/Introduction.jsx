@@ -1,4 +1,4 @@
-import intro from "../../../assets/Photos/Bg-Removed/red-bg-laugh.png"
+import intro from "../../../assets/Photos/Bg-Removed/laugh.png"
 import Typewriter from "./TextAnimation";
 function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;

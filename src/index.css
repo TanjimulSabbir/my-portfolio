@@ -25,4 +25,7 @@
     .UniversalMargin{
         @apply mx-5 sm:mx-8 md:mx-10 mid-lg:mx-16
     }
+    .IntroMargin{
+        @apply ml-5 sm:ml-8 md:ml-10 mid-lg:ml-16
+    }
 }

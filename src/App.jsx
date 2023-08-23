@@ -5,7 +5,7 @@ import Home from './Components/Pages/Home'
 function App() {
 
   return (
-    <div className='bg-[#0a192f] min-h-screen'>
+    <div className='max-w-[1460px] mx-auto bg-[#0a192f] min-h-screen'>
       <Header />
       <Home />
     </div>

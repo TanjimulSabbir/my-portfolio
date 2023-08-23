@@ -1,4 +1,4 @@
-import intro from "../../../assets/Photos/Bg-Removed/laugh-nature.png"
+import intro from "../../../assets/Photos/Bg-Removed/red-bg-laugh.png"
 import Typewriter from "./TextAnimation";
 function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
@@ -20,7 +20,7 @@ function Introduction() {
             </div>
 
             <div className="flex-1 mt-10 lg:mt-0 flex items-end justify-center ">
-                <img className=" w-[350px] sm:w-[435px] lg:w-[450px] h-full" src={intro} alt="TanjimulSabbir" />
+                <img className=" w-[350px] sm:w-[435px] lg:w-[450px]" src={intro} alt="TanjimulSabbir" />
             </div>
         </div>
     )

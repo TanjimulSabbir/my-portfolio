@@ -7,9 +7,10 @@ const Navbar = () => {
         <li className={liStyle}><a href="#about">About</a></li>
         <li className={liStyle}><a href="#experience">Experience</a></li>
         <li className={liStyle}><a href="#work">Works</a></li>
+        <li className={liStyle}><a href="#skill">Skills</a></li>
         <li className={liStyle}><a href="#contact">Contact</a></li>
-        <li className={liStyle}><a href="#contact">Blog</a></li>
-        <li className={liStyle}><a href="#Resume" >Resume</a></li>
+        <li className={liStyle}><a href="#blog">Blog</a></li>
+        <li className={liStyle}><a href="#Resume">Resume</a></li>
     </>
 
     return (

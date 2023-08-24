@@ -1,6 +1,7 @@
 import { FiGithub, FiLinkedin, FiFacebook } from 'react-icons/fi';
 import { CiTwitter } from 'react-icons/ci';
 import { GrMedium } from 'react-icons/gr';
+import { BsDiscord } from 'react-icons/bs';
 const Contact = () => {
     return (
         <div id='contact' className='w-full mid-lg:w-3/5 pt-24 pb-14 mx-auto'>
@@ -41,13 +42,14 @@ const Contact = () => {
                 <h2>
                     Feeling social? Find me on these online spaces too!
                 </h2>
-                <div className='flex items-center space-x-5 mt-5'>
-                <a className='list-none text-2xl text-white' href="/#"><FiGithub /> </a>
-                <a className='list-none text-2xl text-white' href="/#"><FiLinkedin /> </a>
-                <a className='list-none text-2xl text-white' href="/#"><FiFacebook /> </a>
-                <a className='list-none text-2xl text-white' href="/#"><CiTwitter /> </a>
-                <a className='list-none text-xl text-custom-highLightTextColor' href="/#"><GrMedium /> </a>
-            </div>
+                <div className='flex items-center space-x-5 mt-3'>
+                    <a className='list-none text-xl text-white' href="/#"><FiGithub /> </a>
+                    <a className='list-none text-xl text-white' href="/#"><FiLinkedin /> </a>
+                    <a className='list-none text-xl text-white' href="/#"><FiFacebook /> </a>
+                    <a className='list-none text-xl text-white' href="/#"><GrMedium /> </a>
+                    <a className='list-none text-2xl text-white' href="/#"><CiTwitter /> </a>
+                    <a className='list-none text-xl text-white' href="/#"><BsDiscord /> </a>
+                </div>
             </div>
         </div>
     )

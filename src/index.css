@@ -34,6 +34,6 @@
     }
 
     .ContactPlaceHolder {
-        @apply placeholder:opacity-50 border-none bg-transparent focus:outline-none py-2 placeholder:text-lg;
+        @apply placeholder:opacity-50 border-b bg-transparent focus:outline-none py-4;
     }
 }

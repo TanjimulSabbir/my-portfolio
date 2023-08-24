@@ -38,17 +38,17 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-20 rubik'>
+            <div className='mt-20 rubik text-custom-TitleColor'>
                 <h2>
                     Feeling social? Find me on these online spaces too!
                 </h2>
-                <div className='flex items-center space-x-5 mt-3'>
-                    <a className='list-none text-xl text-white' href="/#"><FiGithub /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><FiLinkedin /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><FiFacebook /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><GrMedium /> </a>
-                    <a className='list-none text-2xl text-white' href="/#"><CiTwitter /> </a>
-                    <a className='list-none text-xl text-white' href="/#"><BsDiscord /> </a>
+                <div className='flex items-center space-x-3 mt-3'>
+                    <a className='list-none LinkHover' href="/#"><FiGithub /> </a>
+                    <a className='list-none LinkHover' href="/#"><FiLinkedin /> </a>
+                    <a className='list-none LinkHover' href="/#"><FiFacebook /> </a>
+                    <a className='list-none LinkHover' href="/#"><GrMedium /> </a>
+                    <a className='list-none text-xl LinkHover' href="/#"><CiTwitter /> </a>
+                    <a className='list-none LinkHover' href="/#"><BsDiscord /> </a>
                 </div>
             </div>
         </div>

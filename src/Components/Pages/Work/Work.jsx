@@ -35,8 +35,8 @@ const Work = () => {
 
                                 <p className="mb-4"><small>Reactjs</small> <small>Javascript</small> <small>TailwindCss</small> <small>Redux</small> <small>Redux</small> <small>Redux</small> <small>Redux</small> <small>Redux</small></p>
                                 <div className="flex items-center space-x-8 text-xl mid-lg:justify-end">
-                                    <a href="/"><FiGithub /> </a>
-                                    <a className="" href=""> <LuExternalLink /></a>
+                                    <a className="LinkHover" href="/"><FiGithub /> </a>
+                                    <a className="LinkHover" href=""> <LuExternalLink /></a>
                                 </div>
 
                             </div>

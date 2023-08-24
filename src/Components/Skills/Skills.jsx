@@ -16,15 +16,15 @@ function Skills() {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-3 sm:grid-cols-4 mid-lg:grid-cols-5 justify-around items-center gap-5">
+            <div className="grid grid-cols-3 sm:grid-cols-4 mid-lg:grid-cols-5 justify-around items-center gap-7">
                 {Tools.map(((tool, index) => {
                     const filename = tool.match(/\/([^/]+)\.[^.]+$/)[1];
 
                     return (
                         <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse opacity-50 hover:opacity-100">
-                            <div className="border border-custom-TextColor p-2 rounded-3xl flex flex-col items-center justify-center">
-                                <img className="w-32" src={tool} alt={tool} />
-                                <p className="uppercase mt-2">{filename}</p>
+                            <div className="border border-custom-TextColor hover:border-custom-highLightTextColor p-4 rounded-full flex flex-col items-center justify-center">
+                                <img className="w-24 mid-lg:w-32" src={tool} alt={tool} />
+                                <p className="uppercase mt-2 text-sm">{filename}</p>
                             </div>
                         </div>
                     )

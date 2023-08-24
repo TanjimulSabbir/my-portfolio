@@ -36,4 +36,7 @@
     .ContactPlaceHolder {
         @apply placeholder:opacity-50 border-b bg-transparent focus:outline-none py-1 placeholder:text-sm;
     }
+    .LinkHover{
+        @apply transition duration-500 hover:scale-150;
+    }
 }

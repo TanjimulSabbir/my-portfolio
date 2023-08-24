@@ -6,7 +6,7 @@ const About = () => {
 
             <div className="md:flex items-start gap-20 text-custom-TextColor">
                 <div className="flex-1">
-                    <div className='text-justify text-sm'>
+                    <div className='text-justify'>
                         <p>
                             <span className='text-2xl text-custom-highLightTextColor'>H</span>i there
                             I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began as I stepped into the halls of Rajshahi University, setting the stage for an extraordinary odyssey. I got my first own computer and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.

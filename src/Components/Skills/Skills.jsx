@@ -16,11 +16,16 @@ function Skills() {
                     </p>
                 </div>
             </div>
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center ">
                 {Tools.map(((tool, index) => {
+                    const filename = tool.match(/\/([^/]+)\.[^.]+$/)[1];
+
                     return (
-                        <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse">
-                            <img className="w-36" src={tool} alt={tool} />
+                        <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse opacity-50">
+                            <div className=" border text-center">
+                                <img className="w-36" src={tool} alt={tool} />
+                                <p className="uppercase mt-3">{filename}</p>
+                            </div>
                         </div>
                     )
                 }))}

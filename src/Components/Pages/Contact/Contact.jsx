@@ -4,11 +4,11 @@ import { GrMedium } from 'react-icons/gr';
 import { BsDiscord } from 'react-icons/bs';
 const Contact = () => {
     return (
-        <div id='contact' className='w-full mid-lg:w-4/5 pt-24 pb-14 mx-auto'>
+        <div id='contact' className='w-full mid-lg:w-3/5 pt-24 pb-14 mx-auto'>
             <div>
                 <div className='mb-10 mid-lg:mb-20 lg:text-center'>
                     <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-5'>Get In Touch</h1>
-                    <p className="text-custom-BgColor rubik lg:w-2/3 lg:mx-auto">I’m currently looking for any new opportunities. Need a front-end developer? Have any question or proposal? Or just want to say hello, I’ll try my best to get back to you!
+                    <p className="text-custom-BgColor rubik ">I’m currently looking for any new opportunities. Need a front-end developer? Have any question or proposal? Or just want to say hello, I’ll try my best to get back to you!
                     </p>
                 </div>
                 <div className='sm:grid grid-rows-2 rubik text-custom-TextColor '>

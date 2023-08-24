@@ -8,7 +8,7 @@ import reactjs from "../../assets/Photos/Skill-Tools/react.png"
 function Skills() {
     const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs]
     return (
-        <div id="skill" className="py-24">
+        <div id="skill" className="lg:w-4/5 py-24 mx-auto">
             <div>
                 <div className='mb-10 mid-lg:mb-20'>
                     <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-2'>Skill & Tools</h1>

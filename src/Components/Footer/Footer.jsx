@@ -4,7 +4,7 @@ import { BsDiscord } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <div className='pt-10 bg-[#0a192f] text-Footer font-Bitter'>
+        <div className='pt-10 bg-[#0a192f] text-Footer rubik'>
             <footer className="footer pb-1 py-5 space-x-3 footer-center rounded">
                 <div className='flex items-center justify-center text-center text-white'>
                     <div className='px-2'>

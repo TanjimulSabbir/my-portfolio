@@ -6,6 +6,7 @@ import Experience from "./Experience/Experience"
 import SocialLink from "./SocialLink/SocialLink"
 import Work from "./Work/Work"
 import Footer from "../Footer/Footer"
+import Skills from "../Skills/Skills"
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 <About />
                 <Experience />
                 <Work />
+                <Skills/>
                 <Contact />
                 <Email />
                 <SocialLink />

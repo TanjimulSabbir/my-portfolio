@@ -12,20 +12,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .big-heading{
-        @apply text-3xl md:text-[70px] ;
+@layer components {
+    .big-heading {
+        @apply text-3xl md:text-[70px];
     }
-    .TitleText{
+
+    .TitleText {
         @apply text-3xl;
     }
-    .UniversalPadding{
+
+    .UniversalPadding {
         @apply px-5 sm:px-8 md:px-10 mid-lg:px-16
     }
-    .UniversalMargin{
+
+    .UniversalMargin {
         @apply mx-5 sm:mx-8 md:mx-10 mid-lg:mx-16
     }
-    .IntroMargin{
+
+    .IntroMargin {
         @apply ml-5 sm:ml-8 md:ml-10 mid-lg:ml-16
+    }
+
+    .ContactPlaceHolder {
+        @apply placeholder:opacity-50 border-none bg-transparent focus:outline-none py-2 placeholder:text-lg;
     }
 }

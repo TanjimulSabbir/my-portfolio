@@ -15,8 +15,8 @@ const Home = () => {
             <div className='UniversalPadding py-24 mx-auto'>
                 <About />
                 <Experience />
-                <Work />
                 <Skills/>
+                <Work />
                 <Contact />
                 <Email />
                 <SocialLink />

@@ -5,6 +5,7 @@ import bootstrap from "../../assets/Photos/Skill-Tools/bootstrap.png"
 import javascript from "../../assets/Photos/Skill-Tools/javascript.png"
 import reactjs from "../../assets/Photos/Skill-Tools/reactjs.png"
 import redux from "../../assets/Photos/Skill-Tools/redux.png"
+import reduxtoolkit from "../../assets/Photos/Skill-Tools/redux-toolkit-1400.jpg"
 import firebase from "../../assets/Photos/Skill-Tools/firebase.png"
 import restfulapi from "../../assets/Photos/Skill-Tools/Restful Api.png"
 import nodejs from "../../assets/Photos/Skill-Tools/nodejs.png"
@@ -15,7 +16,7 @@ import netlify from "../../assets/Photos/Skill-Tools/netlify.png"
 
 
 function Skills() {
-    const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs,firebase,redux,restfulapi, nodejs,mongodb,git,github,netlify]
+    const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs,firebase,redux,"https://miro.medium.com/v2/resize:fit:821/1*7scW5hgpjBMRE9sHoYif7Q.png", restfulapi, nodejs,mongodb,git,github,netlify]
     return (
         <div id="skill" className="lg:w-4/5 py-24 mx-auto">
             <div>

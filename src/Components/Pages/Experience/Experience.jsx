@@ -21,18 +21,19 @@ const Experience = () => {
                             <small>May 2023 - July 2023</small>
                         </div>
                         <div className="space-y-3 mt-5">
+                        <div className="flex space-x-2">
+                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
+                                <p className="text-custom-TextColor text-sm">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
+                            </div>
+                            {/* <div className="flex space-x-2">
+                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
+                                <p className="text-custom-TextColor text-sm">I turned designs into real websites that look great on computers and phones.I made sure the websites work really smoothly, so people are happy using them.</p>
+                            </div> */}
                             <div className="flex space-x-2">
                                 <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm">   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aut ratione asperiores beatae perspiciatis rerum nostrum laboriosam ad tempora tempore?</p>
+                                <p className="text-custom-TextColor text-sm"> I worked closely with a friendly team to make beautiful websites that show off different people's work. We all worked together to come up with ideas and solve problems, making everything go faster.</p>
                             </div>
-                            <div className="flex space-x-2">
-                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm">   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aut ratione asperiores beatae perspiciatis rerum nostrum laboriosam ad tempora tempore?</p>
-                            </div>
-                            <div className="flex space-x-2">
-                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm">   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum aut ratione asperiores beatae perspiciatis rerum nostrum laboriosam ad tempora tempore?</p>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

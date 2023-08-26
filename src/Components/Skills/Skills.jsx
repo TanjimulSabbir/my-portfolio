@@ -4,9 +4,18 @@ import tailwind from "../../assets/Photos/Skill-Tools/tailwind.png"
 import bootstrap from "../../assets/Photos/Skill-Tools/bootstrap.png"
 import javascript from "../../assets/Photos/Skill-Tools/javascript.png"
 import reactjs from "../../assets/Photos/Skill-Tools/reactjs.png"
+import redux from "../../assets/Photos/Skill-Tools/redux.png"
+import firebase from "../../assets/Photos/Skill-Tools/firebase.png"
+import restfulapi from "../../assets/Photos/Skill-Tools/Restful Api.png"
+import nodejs from "../../assets/Photos/Skill-Tools/nodejs.png"
+import mongodb from "../../assets/Photos/Skill-Tools/mongodb.png"
+import github from "../../assets/Photos/Skill-Tools/github.png"
+import git from "../../assets/Photos/Skill-Tools/git.png"
+import netlify from "../../assets/Photos/Skill-Tools/netlify.png"
+
 
 function Skills() {
-    const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs]
+    const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs,firebase,redux,restfulapi, nodejs,mongodb,git,github,netlify]
     return (
         <div id="skill" className="lg:w-4/5 py-24 mx-auto">
             <div>
@@ -22,8 +31,8 @@ function Skills() {
 
                     return (
                         <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse opacity-50 hover:opacity-100">
-                            <div className="border border-custom-TextColor hover:border-custom-highLightTextColor p-4 rounded-full flex flex-col items-center justify-center">
-                                <img className="w-24 mid-lg:w-32" src={tool} alt={tool} />
+                            <div className="p-4 rounded-full flex flex-col items-center justify-center">
+                                <img className="w-24" src={tool} alt={tool} />
                                 <p className="uppercase mt-2 text-sm">{filename}</p>
                             </div>
                         </div>

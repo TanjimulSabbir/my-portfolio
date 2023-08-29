@@ -12,7 +12,7 @@ const Work = () => {
             {/* Projects */}
             {
                 Projects.map(project => {
-                    const {projectName,Description,image,Technologies,Links}=project;
+                    const { projectName, Description, image, Technologies, Links } = project;
                     return (
                         <> <div className="mid-lg:grid grid-cols-2 relative">
                             {/* image part */}
@@ -23,7 +23,7 @@ const Work = () => {
                                         {/* <div className="bg-cover bg-center rounded"
                                     style={{ backgroundImage: `url(${backgroundImage})`, height: '100%' }}>
                                 </div> */}
-                                        <img className="w-full h-full mid-lg:w-full mid-lg:h-[400px] rounded" src={backgroundImage} alt="" srcset="" />
+                                        <img className="w-full h-full mid-lg:w-full mid-lg:h-[400px] rounded" src={image} alt="" srcset="" />
                                         <div className="absolute inset-0 w-full h-full transition duration-500 cursor-pointer bg-[#0d2446] mid-lg:bg-green-500 bg-opacity-90 mid-lg:bg-opacity-30 hover:opacity-0"></div>
                                     </div>
                                 </div>
@@ -33,15 +33,15 @@ const Work = () => {
                                 <div className="absolute inset-0 mid-lg:static mid-lg:text-end flex items-center justify-end p-4 mid-lg:p-0">
                                     <div className="mr-0 ">
                                         <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
-                                        <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">Paradise Palam</h1>
+                                        <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2_SanSer">{projectName}</h1>
                                         <div className="mid-lg:absolute mid-lg:w-[60%] mid-lg:h-[80px] right-0 bottom-[50%]">
-                                            <p className="mb-10 mid-lg:bg-[#0d2446] text-base mid-lg:text-sm mid-lg:p-4 lg:py-5 lg:px-8 rounded text-custom-TextColor mid-lg:shadow-2xl z-20 robotoMono">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident molestias a in quae placeat molestiae similique laudantium esse consequuntur eaque dolores accusamus, fugiat repellendus inventore dolorem quasi nisi veritatis!</p>
+                                            <p className="mb-10 mid-lg:bg-[#0d2446] text-base mid-lg:text-sm mid-lg:p-4 lg:py-5 lg:px-8 rounded text-custom-TextColor mid-lg:shadow-2xl z-20 robotoMono">{Description}</p>
 
 
-                                            <p className="mb-4 robotoMono"><small>Reactjs</small> <small>Javascript</small> <small>TailwindCss</small> <small>Redux</small> <small>Redux</small> <small>Redux</small> <small>Redux</small> <small>Redux</small></p>
+                                            <p className="mb-4 robotoMono"><small>{Technologies.map(technology => technology)}</small></p>
                                             <div className="flex items-center space-x-8 text-xl mid-lg:justify-end">
-                                                <a className="LinkHover" href="/"><FiGithub /> </a>
-                                                <a className="LinkHover" href=""> <LuExternalLink /></a>
+                                                <a className="LinkHover" href={Links.github}><FiGithub /> </a>
+                                                <a className="LinkHover" href={Links.live}> <LuExternalLink /></a>
                                             </div>
 
                                         </div>

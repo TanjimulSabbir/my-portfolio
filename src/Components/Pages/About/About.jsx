@@ -13,25 +13,25 @@ const About = () => {
                         </p>
                         <br />
                         <p>
-                            <strong className='text-custom-highLightTextColor'> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux and GraphQL joined the mix for smoother operations.
+                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux and GraphQL joined the mix for smoother operations.
                         </p>
                         <br />
                         <p>
-                            <strong className="text-custom-highLightTextColor"> While I've explored backend technologies like Node.js, </strong>
+                            <strong className=""> While I've explored backend technologies like Node.js, </strong>
                             Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in making things work seamlessly.
                         </p>
                         <br />
                         <p>
-                            <strong className='text-custom-highLightTextColor'>I recently had an opportunity, </strong>
+                            <strong className=''>I recently had an opportunity, </strong>
                             to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is key for me. I believe in the power of teamwork, where every voice matters.
                         </p>
                         <p>
-                            <strong className='text-custom-highLightTextColor'>Outside of coding, </strong>
+                            <strong className=''>Outside of coding, </strong>
 
                             I enjoy nature photograpy and music, which adds a dash of inspiration to my work.
                         </p>
                         <br />
-                        <p> <strong className='text-custom-highLightTextColor'>Here's to coding, </strong>  creativity, and my shared journey!</p>
+                        <p> <strong className=''>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
                 <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-0 group cursor-pointer ">

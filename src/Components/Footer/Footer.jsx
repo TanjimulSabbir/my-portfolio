@@ -12,7 +12,7 @@ const Footer = () => {
                             <p>Copyright © 2023 - All rights reserved by Tanjimul Islam Sabbir</p>
                         </div>
                         <small className='text-[9px]'>
-                            Developed by <a className='text-green-500 LinkHover' href="https://www.linkedin.com/in/TanjimulSabbir" target='_blank'>Tanjimul Islam Sabbir.</a>
+                            Developed by <a className='text-green-500 LinkHover' href="https://www.linkedin.com/in/TanjimulSabbir" target='_blank'>Tanjimul Islam Sabbir</a>
                             </small>
                             {/* <div className='flex justify-center items-center space-x-2'>
                                 <a className='list-none text-[10px] text-white' href="https://github.com/TanjimulSabbir" target='_blank'><FiGithub /> </a>

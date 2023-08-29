@@ -26,7 +26,7 @@ const Typewriter = ({text}) => {
 
   return (
     <div className="mt-5 typewriter text-justify pr-4">
-      <p className="text-black">
+      <p className="text-custom-nameColor">
         <span className="text-animate">
           <span className="skew-animate">
             {typedText.split('').map((char, idx) => {

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Flex', sans-serif;
     color: whitesmoke;
     background: "#8892b0";
     font-weight: 400;
@@ -9,18 +9,17 @@ a {
     font-family: 'Fira Mono', monospace;
 }
 
-.fira {
-    font-family: 'Fira Mono', monospace;
-}
 
 .rubik {
     font-family: "Rubik", sans-serif;
 }
 
-.merina {
-    font-family: 'Spinnaker', sans-serif;
+.robotoFlex{
+    font-family: 'Roboto Flex', sans-serif;
 }
-
+.robotoMono{
+    font-family: 'Roboto Mono', monospace;
+}
 .Exo2_SanSer {
     font-family: 'Exo 2', sans-serif;
 }

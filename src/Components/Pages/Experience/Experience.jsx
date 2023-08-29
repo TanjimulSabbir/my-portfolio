@@ -1,4 +1,4 @@
-import { VscDebugBreakpointDataUnverified } from "react-icons/vsc"
+import { MdOutlineArrowRight } from "react-icons/md"
 
 const Experience = () => {
     return (
@@ -22,7 +22,7 @@ const Experience = () => {
                         </div>
                         <div className="space-y-3 mt-5">
                         <div className="flex space-x-2">
-                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
+                                <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
                                 <p className="text-custom-TextColor text-sm">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
                             </div>
                             {/* <div className="flex space-x-2">
@@ -30,8 +30,8 @@ const Experience = () => {
                                 <p className="text-custom-TextColor text-sm">I turned designs into real websites that look great on computers and phones.I made sure the websites work really smoothly, so people are happy using them.</p>
                             </div> */}
                             <div className="flex space-x-2">
-                                <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm"> I worked closely with a friendly team to make beautiful websites that show off different people's work. We all worked together to come up with ideas and solve problems, making everything go faster.</p>
+                                <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
+                                <p className="text-custom-TextColor text-sm"> I collaborated with a warm and creative team to craft stunning websites that showcase diverse talents. Together, we brainstormed and tackled challenges, accelerating our progress.</p>
                             </div>
                            
                         </div>

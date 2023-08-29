@@ -13,7 +13,7 @@ function Introduction() {
                             Tanjimul Islam Sabbir
                         </h2>
                  
-                    <h1 className="mt-2 ">Front-end Developer| Reactjs Developer</h1>
+                    <h1 className="mt-2 robotoMono">Front-end Developer| Reactjs Developer</h1>
                     <Typewriter text={text} />
                     <button className="mt-6 uppercase border border-black px-14 py-4">get in touch</button>
                 </div>

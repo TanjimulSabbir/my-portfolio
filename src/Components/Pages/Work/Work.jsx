@@ -1,9 +1,10 @@
-import { Projects } from "./Projects.json"
+import AllProjects  from "./AllProjects.json"
 import { LuExternalLink } from "react-icons/lu";
 import { FiGithub } from "react-icons/fi";
 
 const Work = () => {
     const backgroundImage = 'https://i.ibb.co/mzRSWTb/bed06.jpg';
+    console.log(AllProjects,"AllProjects")
     return (
         <div id='work' className='lg:w-5/6 py-24 mx-auto'>
             {/* Heading */}
@@ -11,7 +12,7 @@ const Work = () => {
 
             {/* Projects */}
             {
-                Projects.map(project => {
+                AllProjects?.Projects?.map(project => {
                     const { projectName, Description, image, Technologies, Links } = project;
                     return (
                         <> <div className="mid-lg:grid grid-cols-2 relative">

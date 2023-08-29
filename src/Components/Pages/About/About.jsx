@@ -2,7 +2,7 @@ import TanjimulSabbir from "../../../assets/Photos/About/red-wall-bg-white.png"
 const About = () => {
     return (
         <div id='about' className='py-24 rubik'>
-            <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="Section-Heading"></span></h1>
+            <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
             <div className="md:flex items-start gap-20 text-custom-TextColor">
                 <div className="flex-1">

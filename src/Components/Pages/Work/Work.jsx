@@ -8,7 +8,7 @@ const Work = () => {
     return (
         <div id='work' className='lg:w-5/6 py-24 mx-auto'>
             {/* Heading */}
-            <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-14'>Some Things I've built<span className="Section-Heading"></span></h1>
+            <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-14'>Some Things I've built<span className="hidden mid-lg:Section-Heading"></span></h1>
 
             {/* Projects */}
             {

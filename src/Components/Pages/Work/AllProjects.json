@@ -3,7 +3,7 @@
         {
             "projectName": "Paradise Palms",
             "Description": "Paradise Palm Resort – the ultimate getaway for guests. Explore a range of services, thoughtfully categorized for user convenience. Every service features detailed information and an appealing offers page, ensuring seamless updates. Booking desired services is easy, with a personalized dashboard to keep users informed about upcoming reservations. User can elevate their experience, inspiring repeat bookings and a world of vibrant memories.",
-            "image": "https://www.awesomescreenshot.com/image/42394520?key=a8e9dc126462c7dd7ee4ac968bbd2203",
+            "image": "https://i.ibb.co/QPbynTz/bed06.jpg",
             "Technologies": ["Reactjs", "Javascript", "TailwindCSS", "Firebase", "RestAPI", "Nodejs", "Expressjs", "MongoDB"],
             "Links": {
                 "github": "https://github.com/TanjimulSabbir/Paradise-Palms-Resort-Client-Site",
@@ -11,13 +11,13 @@
             }
         },
         {
-            "projectName": "Second Project",
-            "Description": "Description of the second project",
-            "image": "Image URL of the second project",
-            "Technologies": ["Technology 1", "Technology 2"],
+            "projectName": "Nature World",
+            "Description": "Introducing Naute World—an e-commerce haven designed for plant lovers. The mission is to offer user-friendly access to premium plants and gardening supplies at budget-friendly rates. The website is powered by the MERN (MongoDB, Express, React, Node.js) stack, crafting a seamless and responsive journey for every user.This site will immerse users in a world of verdant beauty and horticultural treasures, tailored to satisfy the user's passion for all things botanical.",
+            "image": "https://i.ibb.co/RNHFM7n/My-items-Awesome-Screenshot.png",
+            "Technologies": ["Reactjs", "Javascript", "TailwindCSS", "Firebase", "RestAPI", "Nodejs", "Expressjs", "MongoDB"],
             "Links": {
-                "github": "GitHub URL of the second project",
-                "live": "Live URL of the second project"
+                "github": "https://github.com/TanjimulSabbir/Nature-World-Client-Site",
+                "live": "https://nature-world-2c964.web.app/"
             }
         },
         {

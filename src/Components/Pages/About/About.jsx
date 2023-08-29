@@ -4,11 +4,11 @@ const About = () => {
         <div id='about' className='py-24 rubik'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
-            <div className="md:flex items-start gap-20 text-custom-TextColor">
+            <div className="md:flex items-start gap-20 text-custom-TextColor text-sm">
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>
-                            <span className='text-2xl text-custom-highLightTextColor'>H</span>i there
+                            <span className='text-xl text-custom-highLightTextColor'>H</span>i there
                             I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began when I start studying in Rajshahi University, setting the stage for an extraordinary odyssey. I got my first own computer and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
                         </p>
                         <br />

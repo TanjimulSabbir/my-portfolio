@@ -4,8 +4,8 @@
             "projectName": "Paradise Palms",
             "Description": "Paradise Palm Resort – the ultimate getaway for guests. Explore a range of services, thoughtfully categorized for user convenience. Every service features detailed information and an appealing offers page, ensuring seamless updates. Booking desired services is easy, with a personalized dashboard to keep users informed about upcoming reservations. User can Elevate their experience, inspiring repeat bookings and a world of vibrant memories.",
             "image": "https://www.awesomescreenshot.com/image/42394520?key=a8e9dc126462c7dd7ee4ac968bbd2203",
-            "Technology": ["Reactjs","Javascript","TailwindCSS","Firebase","RestAPI","Nodejs","Expressjs","MongoDB"],
-            "Link": {
+            "Technologies": ["Reactjs","Javascript","TailwindCSS","Firebase","RestAPI","Nodejs","Expressjs","MongoDB"],
+            "Links": {
                 "github": "https://github.com/TanjimulSabbir/Paradise-Palms-Resort-Client-Site",
                 "live": "https://paradise-palms-tourist-h-c7621.web.app/"
             }

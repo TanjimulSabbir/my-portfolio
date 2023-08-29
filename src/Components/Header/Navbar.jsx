@@ -14,7 +14,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className={`navbar py-4 ${open ?"bg-white":"bg-[#21827c] "} mid-lg:bg-[#21827c] `}>
+        <div className={`navbar py-4`}>
             <div className="navbar flex item-center justify-end text-black z-50">
                 <div className="mid-lg:hidden">
                     <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline UniversalMargin text-4xl border-none hover:bg-transparent text-black mid-lg:hidden">

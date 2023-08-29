@@ -12,10 +12,10 @@ const Typewriter = ({text}) => {
         setIndex(prevIndex => prevIndex + 1);
       } else {
         clearInterval(typingInterval);
-        setTimeout(() => {
-          setTypedText('');
-          setIndex(0);
-        }, 2000); // Delay before starting the animation again
+        // setTimeout(() => {
+        //   setTypedText('');
+        //   setIndex(0);
+        // }, 2000); // Delay before starting the animation again
       }
     }, 100); // Delay between each character
 

@@ -17,14 +17,14 @@ const Work = () => {
                     return (
                         <> <div className="mid-lg:grid grid-cols-2 relative mt-24">
                             {/* image part */}
-                            <a href="">
+                            <a href={Links.live}>
                                 <div className="">
-                                    <div className="relative w-full h-full mid-lg:w-full mid-lg:h-[400px]">
+                                    <div className="relative w-full min-h-[400px] h-full mid-lg:w-full mid-lg:h-[400px]">
                                         {/* Background image */}
                                         {/* <div className="bg-cover bg-center rounded"
                                     style={{ backgroundImage: `url(${backgroundImage})`, height: '100%' }}>
                                 </div> */}
-                                        <img className="w-full h-full mid-lg:w-full mid-lg:h-full rounded" src={image} alt="" srcset="" />
+                                        <img className="w-full min-h-[400px] h-full mid-lg:w-full mid-lg:h-[400px] rounded" src={image} alt="" srcset="" />
                                         <div className="absolute inset-0 w-full h-full transition duration-500 cursor-pointer bg-[#0d2446] mid-lg:bg-green-500 bg-opacity-90 mid-lg:bg-opacity-30 hover:opacity-0"></div>
                                     </div>
                                 </div>

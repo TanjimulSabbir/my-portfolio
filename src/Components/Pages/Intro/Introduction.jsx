@@ -9,7 +9,11 @@ function Introduction() {
                     <h2 className="text-4xl lg:text-[55px] xl:text-6xl uppercase lato">
                         Hi, I'm Tanjimul Islam Sabbir
                     </h2>
-                    <h1 className="mt-4 robotoSlab text-center text-[#b9bab9]">Front-end Developer | Reactjs Developer</h1>
+                    <h1 className="mt-4 robotoSlab text-center text-[#d2d3d2] flex items-center justify-center">Front-end Developer | 
+                        <p className="typing-animation ">
+                            <p className="typing-text text-sm ml-1"> ReactJs Developer</p>
+                        </p>
+                    </h1>
                 </div>
             </div>
         </div>

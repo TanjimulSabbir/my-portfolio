@@ -40,7 +40,6 @@ a {
     left: 0;
     transform: translateX(10%);
     width: 20rem;
-    /* Adjust this value as needed */
     border-bottom: 2px solid #233554;
 }
 

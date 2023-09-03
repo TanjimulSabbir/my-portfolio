@@ -11,7 +11,7 @@ import Skills from "../Skills/Skills"
 const Home = () => {
     return (
         <div>
-            <div className='UniversalPadding py-24 mx-auto bg-[#0a192f]'>
+            <div className='UniversalPadding py-24 mx-auto bg-[#0a192f] overflow-hidden'>
                 <About />
                 <Experience />
                 <Skills/>

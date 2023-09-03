@@ -20,7 +20,7 @@ const Navbar = () => {
                     <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline UniversalMargin mr-0 text-4xl border-none hover:bg-transparent md:hidden">
                         <p className={`${open && "transition duration-700 transform rotate-90"}`}>{open ? <RxCross1 /> : <RxHamburgerMenu />}</p>
                     </label>
-                    <ul tabIndex={0} className={`${open || "hidden"} fixed inset-0 px-6 py-24 shadow w-screen h-screen space-y-8 bg-[#35a55e] uppercase`}>
+                    <ul tabIndex={0} className={`${open || "hidden"} fixed inset-0 px-6 py-24 shadow w-screen h-screen space-y-8 bg-[#35a55e] uppercase text-black`}>
                         {Menu}
                         <div className="absolute top-0 right-1">
                             <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline  text-4xl border-none hover:bg-transparent text-black md:hidden">

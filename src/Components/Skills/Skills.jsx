@@ -22,7 +22,7 @@ function Skills() {
             <div>
                 <div className='mb-10 mid-lg:mb-20'>
                     <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-2'>Skill & Tools</h1>
-                    <p className="text-custom-BgColor  rubik">What Tools and Things can I do!
+                    <p className="text-custom-BgColor rubik">What Tools and Things can I do!
                     </p>
                 </div>
             </div>

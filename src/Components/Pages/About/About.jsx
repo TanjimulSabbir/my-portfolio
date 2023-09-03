@@ -42,7 +42,7 @@ const About = () => {
                             src={TanjimulSabbir}
                             alt="TanjimulSabbir"
                         />
-                        <div className="absolute w-full h-full mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition duration-700 bg-opacity-50 hover:bg-opacity-0 transform"></div>
+                        {/* <div className="absolute w-full h-full mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition duration-700 bg-opacity-50 hover:bg-opacity-0 transform"></div> */}
                     </div>
                 </div>
             </div>

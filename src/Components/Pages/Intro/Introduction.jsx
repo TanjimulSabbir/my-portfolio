@@ -5,7 +5,7 @@ function Introduction() {
     return (
         <div className="UniversalPadding h-screen w-full bg-[#020202] bg-opacity-80 text-[#35a55e]">
             <div className="lg:w-1/2 h-full mx-auto flex pt-24 md:pt-0 md:items-center justify-center  z-10">
-                <div className="md:-mt-28">
+                <div className="mid-lg:-mt-28">
                     <h4 className='mb-2 lato'>
                         Hi, my name is
                     </h4>

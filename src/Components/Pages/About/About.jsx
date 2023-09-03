@@ -1,7 +1,7 @@
 import TanjimulSabbir from "../../../assets/Photos/About/red-wall-bg-white.png"
 const About = () => {
     return (
-        <div id='about' className='mb-24 robotoFlex'>
+        <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
             <div className="mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-sm">

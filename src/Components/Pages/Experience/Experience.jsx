@@ -5,17 +5,16 @@ const Experience = () => {
         <div id='experience' className='lg:w-3/5 py-24 mx-auto'>
             {/* Heading */}
             <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-14'>Where I'v worked<span className="hidden mid-lg:Section-Heading"></span></h1>
-            <div className='mt-14 flex space-x-4 md:space-x-20 justify-center'>
-                <div className=''>
+            <div className='mt-14 md:flex md:space-x-20 md:justify-center'>
                     <div className="text-custom-highLightTextColor text-base">
-                        <h1>Inventive</h1>
+                        <h1 className="pb-3 md:pb-0 underline md:no-underline underline-offset-8 text-lg">Inventive</h1>
+                        {/* <hr className="bg-custom-highLightTextColor"/> */}
                     </div>
-                </div>
                 <div>
-                    <div className="border-l border-custom-highLightTextColor pl-4">
-                        <div className="flex flex-col sm:items-center sm:flex-row sm:space-x-3">
-                            <h1>Jr Front-end Developer</h1>
-                            <p className="text-custom-highLightTextColor mb-4 sm:mb-0 text-[10px] sm:text-base">@Inventive Web Service</p>
+                    <div className="md:border-l border-custom-highLightTextColor md:pl-4">
+                        <div className="flex items-center space-x-3">
+                            <h1>Jr Front-end Developer -</h1>
+                            <p className="text-custom-highLightTextColor text-xs sm:text-base">@Inventive Web Service</p>
                         </div>
                         <div className="">
                             <small>May 2023 - July 2023</small>
@@ -23,7 +22,7 @@ const Experience = () => {
                         <div className="space-y-3 mt-5">
                         <div className="flex space-x-2">
                                 <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
+                                <p className="text-custom-TextColor text-sm text-justify">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
                             </div>
                             {/* <div className="flex space-x-2">
                                 <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
@@ -31,7 +30,7 @@ const Experience = () => {
                             </div> */}
                             <div className="flex space-x-2">
                                 <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
-                                <p className="text-custom-TextColor text-sm"> I collaborated with a warm and creative team to craft stunning websites that showcase diverse talents. Together, we brainstormed and tackled challenges, accelerating our progress.</p>
+                                <p className="text-custom-TextColor text-sm text-justify "> I collaborated with a warm and creative team to craft stunning websites that showcase diverse talents. Together, we brainstormed and tackled challenges, accelerating our progress.</p>
                             </div>
                            
                         </div>

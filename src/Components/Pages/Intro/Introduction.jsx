@@ -16,7 +16,7 @@ function Introduction() {
                     <h1 className="mt-1 lato">Front-end Developer | Reactjs Developer</h1>
                     {/* <Typewriter text={text} /> */}
                     <p className="mt-7 lato pl-0">{text}</p>
-                    <button className="mt-6 uppercase border-2 rounded border-[#238748] px-14 py-4">get in touch</button>
+                    <button className="mt-6 uppercase border-2 rounded border-[#35a55e] px-14 py-4">get in touch</button>
                 </div>
             </div>
 

@@ -16,6 +16,8 @@ const Work = () => {
 					const { projectName, Description, image, Technologies, Links } = project;
 					return (
 						<> <div className="relative mt-24">
+							<h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
+							<h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2">{projectName}</h1>
 							{/* image part */}
 							<a href={Links.live}>
 								<div>
@@ -25,12 +27,12 @@ const Work = () => {
 							{/* Text Part */}
 
 							<div className="flex items-center">
-								<div className="mt-16">
-									<h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
-									<h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2">{projectName}</h1>
+								<div className="mt-10">
+									{/* <h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2> */}
+									{/* <h1 className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2">{projectName}</h1> */}
 
-									<div className="mt-10">
-										<p className="mb-10 bg-[#0d2446] text-xs sm:text-sm p-4 py-5 lg:px-8 rounded text-custom-TextColor shadow-2xl z-20 rubik md:text-justify">{Description}</p>
+									<div className="">
+										<p className="mb-7 text-xs sm:text-sm text-custom-TextColor rubik md:text-justify">{Description}</p>
 
 										<p className="mb-6 rubik text-sm sm:text-base space-x-1 cursor-pointer text-custom-highLightTextColor">{Technologies.map(technology => <small key={technology}> {technology}</small>)}</p>
 

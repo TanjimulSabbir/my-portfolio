@@ -6,13 +6,11 @@ function Introduction() {
         <div className="min-h-screen flex items-center lg:items-start lg:pt-[10%] justify-center text-white bg-black bg-opacity-80">
             <div className="">
                 <div className="">
-                    <h2 className="text-4xl lg:text-[55px] xl:text-6xl uppercase lato">
-                        Hi, I'm Tanjimul Islam Sabbir
+                    <h2 className="text-4xl lg:text-[55px] xl:text-6xl uppercase Exo2">
+                        Hi, I'm Tanjimul Sabbir
                     </h2>
-                    <h1 className="mt-4 robotoSlab text-center text-[#d2d3d2] flex items-center justify-center">Front-end Developer | 
-                        <p className="typing-animation ">
-                            <p className="typing-text text-sm ml-1"> ReactJs Developer</p>
-                        </p>
+                    <h1 className="mt-4 rubik text-center text-[#d2d3d2] flex items-center justify-center">Front-end Developer | 
+                       ReactJS Developer
                     </h1>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Contact = () => {
         <div id='contact' className='w-full mid-lg:w-3/5 pt-24 pb-14 mx-auto'>
             <div>
                 <div className='mb-10 mid-lg:mb-20 lg:text-center'>
-                    <h1 className='Exo2_SanSer TitleText font-bold text-[#ccd6f6] mb-5'>Get In Touch</h1>
+                    <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-5'>Get In Touch</h1>
                     <p className="text-custom-BgColor rubik ">I’m currently looking for any new opportunities. Need a front-end developer? Have any question or proposal? Or just want to say hello, I’ll try my best to get back to you!
                     </p>
                 </div>

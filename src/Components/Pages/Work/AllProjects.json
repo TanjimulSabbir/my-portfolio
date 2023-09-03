@@ -13,7 +13,7 @@
         {
             "projectName": "Nature World",
             "Description": "Introducing Naute World—an e-commerce haven designed for plant lovers. The mission is to offer user-friendly access to premium plants and gardening supplies at budget-friendly rates. The website is powered by the MERN (MongoDB, Express, React, Node.js) stack, crafting a seamless and responsive journey for every user.This site will immerse users in a world of verdant beauty and horticultural treasures, tailored to satisfy the user's passion for all things botanical.",
-            "image": "https://i.ibb.co/0fX9gGK/Home-Nature-World.png",
+            "image": "https://i.ibb.co/7KWMh1H/Home-Nature-World.png",
             "Technologies": [ "Javascript", "Reactjs", "CSS","Bootstrap","RestAPI", "Nodejs", "Expressjs", "MongoDB","Firebase"],
             "Links": {
                 "github": "https://github.com/TanjimulSabbir/Nature-World-Client-Site",
@@ -21,9 +21,9 @@
             }
         },
         {
-            "projectName": "Weather App",
+            "projectName": "Glimpses",
             "Description": "Description of the third project",
-            "image": "https://i.ibb.co/YBPmMXN/Weather-App.png",
+            "image": "https://i.ibb.co/h9Fzd2X/Glimpses-cut.png",
             "Technologies": ["Technology 1", "Technology 2"],
             "Links": {
                 "github": "GitHub URL of the third project",

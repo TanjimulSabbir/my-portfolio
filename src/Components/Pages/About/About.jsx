@@ -4,7 +4,7 @@ const About = () => {
         <div id='about' className='my-24 robotoFlex'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
-            <div className="md:flex items-start gap-20 text-custom-TextColor text-sm">
+            <div className="md:flex flex-row-reverse items-start gap-20 text-custom-TextColor text-sm">
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>

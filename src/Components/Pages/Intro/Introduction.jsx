@@ -3,7 +3,7 @@ import Typewriter from "./TextAnimation";
 function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
     return (
-        <div className="UniversalPadding h-screen w-full bg-[#020202] bg-opacity-80 text-[#35a55e] ">
+        <div className="UniversalPadding h-screen w-full bg-[#020202] bg-opacity-80 text-[#35a55e]">
             <div className="lg:w-1/2 h-full flex pt-24 md:pt-0 md:items-center justify-center  z-10">
                 <div className="md:-mt-28">
                     <h4 className='mb-2 lato'>
@@ -13,7 +13,7 @@ function Introduction() {
                         Tanjimul Islam Sabbir
                     </h2>
 
-                    <h1 className="mt-2 lato">Front-end Developer | Reactjs Developer</h1>
+                    <h1 className="mt-1 lato">Front-end Developer | Reactjs Developer</h1>
                     {/* <Typewriter text={text} /> */}
                     <p className="mt-7 lato pl-0">{text}</p>
                     <button className="mt-6 uppercase border-2 rounded border-[#238748] px-14 py-4">get in touch</button>

@@ -18,7 +18,7 @@ import netlify from "../../assets/Photos/Skill-Tools/netlify.png"
 function Skills() {
     const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs,firebase,redux,reduxtoolkit, nodejs,mongodb,git,github]
     return (
-        <div id="skill" className="lg:w-4/5 py-24 mx-auto">
+        <div id="skill" className="lg:w-4/5 pb-24 mx-auto">
             <div>
                 <div className='mb-10 mid-lg:mb-20'>
                     <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-2'>Skill & Tools</h1>

@@ -6,7 +6,7 @@ const Work = () => {
     const backgroundImage = 'https://i.ibb.co/mzRSWTb/bed06.jpg';
     console.log(AllProjects,"AllProjects")
     return (
-        <div id='work' className='lg:w-5/6 py-24 mx-auto'>
+        <div id='work' className='lg:w-5/6 pb-24 mx-auto'>
             {/* Heading */}
             <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-14'>Some Things I've built<span className="hidden mid-lg:Section-Heading"></span></h1>
 

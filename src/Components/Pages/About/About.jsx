@@ -1,10 +1,10 @@
 import TanjimulSabbir from "../../../assets/Photos/About/red-wall-bg-white.png"
 const About = () => {
     return (
-        <div id='about' className='my-24 robotoFlex'>
+        <div id='about' className='mb-24 robotoFlex'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
-            <div className="md:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-sm">
+            <div className="mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-sm">
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>
@@ -20,7 +20,7 @@ const About = () => {
                             <strong className=""> While I've explored backend technologies like Node.js, </strong>
                             Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in making things work seamlessly.
                         </p>
-                   
+                   <br />
                         <p>
                             <strong className=''>I recently had an opportunity, </strong>
                             to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is key for me. I believe in the power of teamwork, where every voice matters.
@@ -34,7 +34,7 @@ const About = () => {
                         <p> <strong className=''>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
-                <div className="md:w-1/3 flex items-center justify-center mt-20 md:mt-0 group cursor-pointer ">
+                <div className="mid-lg:w-1/3 flex items-center justify-center mt-20 mid-lg:mt-0 group cursor-pointer ">
 
                     <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
 

@@ -2,7 +2,7 @@ import { MdOutlineArrowRight } from "react-icons/md"
 
 const Experience = () => {
     return (
-        <div id='experience' className='lg:w-3/5 py-24 mx-auto'>
+        <div id='experience' className='lg:w-3/5 mb-24 mx-auto'>
             {/* Heading */}
             <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-14'>Where I'v worked<span className="hidden mid-lg:Section-Heading"></span></h1>
             <div className='mt-14 md:flex md:space-x-20 md:justify-center'>

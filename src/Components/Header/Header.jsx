@@ -2,7 +2,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
     return (
-        <div className='bg-black bg-opacity-80'>
+        <div className='bg-black bg-opacity-90'>
             <Navbar></Navbar>
         </div>
     )

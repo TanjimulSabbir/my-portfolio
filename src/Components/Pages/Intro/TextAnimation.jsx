@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import "./TextAnimationCss.css"
 
 const Typewriter = ({text}) => {
@@ -12,10 +12,10 @@ const Typewriter = ({text}) => {
         setIndex(prevIndex => prevIndex + 1);
       } else {
         clearInterval(typingInterval);
-        // setTimeout(() => {
-        //   setTypedText('');
-        //   setIndex(0);
-        // }, 2000); // Delay before starting the animation again
+        setTimeout(() => {
+          setTypedText('');
+          setIndex(0);
+        }, 2000); // Delay before starting the animation again
       }
     }, 100); // Delay between each character
 
@@ -26,14 +26,14 @@ const Typewriter = ({text}) => {
 
   return (
     <div className="mt-5 typewriter text-justify pr-4">
-      <p className="text-custom-nameColor">
+      <p className="text-white">
         <span className="text-animate">
           <span className="skew-animate">
             {typedText.split('').map((char, idx) => {
               const styles = [];
-              // if (idx >= 13 && idx <= 32) {
-              //   styles.push("highlight-letter");
-              // }
+              if (idx >= 13 && idx <= 32) {
+                styles.push("highlight-letter");
+              }
             
               // if (idx === 87) {
               //   styles.push("red-letter");

@@ -3,7 +3,7 @@ import Typewriter from "./TextAnimation";
 function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
     return (
-        <div className="h-screen w-full bg-[#020202] bg-opacity-90 text-[#35a55e] ">
+        <div className="h-screen w-full bg-[#020202] bg-opacity-80 text-[#35a55e] ">
             <div className="IntroMargin w-1/2 h-full mx-auto flex items-center justify-center z-10 ">
                 <div className="-mt-20">
                     <h4 className='mb-2 lato'>

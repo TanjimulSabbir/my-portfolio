@@ -22,13 +22,36 @@
         },
         {
             "projectName": "Glimpses",
-            "Description": "Description of the third project",
+            "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
             "image": "https://i.ibb.co/h9Fzd2X/Glimpses-cut.png",
-            "Technologies": ["Technology 1", "Technology 2"],
+            "Technologies":[ "Javascript", "Reactjs", "CSS","TailwindCSS", "React-Icons"],
             "Links": {
-                "github": "GitHub URL of the third project",
-                "live": "Live URL of the third project"
-            }
+                "github": "https://github.com/TanjimulSabbir/glimpses---A-simple-and-minimal-journal-app",
+                "live": "https://glimpsesget.netlify.app/"
+            },
+            "stack":"Front-end and Design"
+        },
+        {
+            "projectName": "Drake Porfolio",
+            "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
+            "image": "https://i.ibb.co/9rdwrcJ/drake-portfolio-cut.png",
+            "Technologies":[ "HTML", "CSS","TailwindCSS", "Javascript"],
+            "Links": {
+                "github": "https://github.com/TanjimulSabbir/Darke-Portfolio",
+                "live": "https://drake-portfolio.netlify.app/"
+            },
+            "stack":"Front-end and Design"
+        },
+        {
+            "projectName": "Tic-Tac-Toe",
+            "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
+            "image": "https://i.ibb.co/GCBnQNT/Screenshot-2023-09-04-062032.png",
+            "Technologies":[ "HTML", "CSS","TailwindCSS", "Javascript"],
+            "Links": {
+                "github": "https://github.com/TanjimulSabbir/Tic-Tac-Toe",
+                "live": "https://tanjimulsabbir.github.io/Tic-Tac-Toe/"
+            },
+            "stack":"Front-end and Design"
         }
     ]
 }

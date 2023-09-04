@@ -9,25 +9,25 @@ const About = () => {
                     <div className='text-justify'>
                         <p>
                             <span className='text-xl text-custom-highLightTextColor'>H</span>i there
-                            I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began when I start studying in Rajshahi University, setting the stage for an extraordinary odyssey. I got my first own computer and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
+                            I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began. Now, I'm studying in Rajshahi University. I got my first own computer at university and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
                         </p>
                         <br />
                         <p>
-                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux and GraphQL joined the mix for smoother operations.
+                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux joined the mix for smoother operations.
                         </p>
                    
                         <p>
-                            <strong className=""> While I've explored backend technologies like Node.js, </strong>
-                            Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in making things work seamlessly.
+                            <strong className=""> While I've explored backend technologies like </strong> Node.js,
+                            Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in solving Complex UI things work seamlessly. I more prefer to work with complex UI logic more than design. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving complex logic. I also love problem solving.
                         </p>
                    <br />
                         <p>
                             <strong className=''>I recently had an opportunity, </strong>
-                            to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is key for me. I believe in the power of teamwork, where every voice matters.
+                            to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is a things that helps achieve something super fast. I believe in the power of teamwork, where every talk matters.
                         </p>
                         <p>
                             <strong className=''>Outside of coding, </strong>
-
+                            Gardening is my hobby. I have an indoor garden.
                             I enjoy nature photograpy and music, which adds a dash of inspiration to my work.
                         </p>
                         <br />

@@ -28,8 +28,8 @@ function Skills() {
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 mid-lg:grid-cols-5 justify-around items-center gap-7">
                 {Tools.map(((tool, index) => {
-                    const filename = tool.match(/\/([^/]+)\.[^.]+$/)[1];
-                    console.log(filename, "filename")
+                    const parts = tool.split('/'); // Split the path by "/"
+                    const filename = parts[parts.length - 1].split('.')[0];
                     return (
                         <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse opacity-50 hover:opacity-100">
                             <div className="p-4 rounded-full flex flex-col items-center justify-center">

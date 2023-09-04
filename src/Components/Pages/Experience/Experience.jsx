@@ -1,4 +1,4 @@
-import { MdOutlineArrowRight } from "react-icons/md"
+import { CiLocationArrow1 } from "react-icons/ci"
 
 const Experience = () => {
     return (
@@ -21,17 +21,17 @@ const Experience = () => {
                         </div>
                         <div className="space-y-3 mt-5">
                         <div className="flex space-x-2">
-                                <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
+                                <CiLocationArrow1 className="text-xl w-10 text-custom-highLightTextColor" />
                                 <p className="text-custom-TextColor text-sm text-justify">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
                             </div>
                             {/* <div className="flex space-x-2">
                                 <VscDebugBreakpointDataUnverified className="text-xl w-10 text-custom-highLightTextColor" />
                                 <p className="text-custom-TextColor text-sm">I turned designs into real websites that look great on computers and phones.I made sure the websites work really smoothly, so people are happy using them.</p>
                             </div> */}
-                            <div className="flex space-x-2">
+                            {/* <div className="flex space-x-2">
                                 <MdOutlineArrowRight className="text-xl w-10 text-custom-highLightTextColor" />
                                 <p className="text-custom-TextColor text-sm text-justify "> I collaborated with a warm and creative team to craft stunning websites that showcase diverse talents. Together, we brainstormed and tackled challenges, accelerating our progress.</p>
-                            </div>
+                            </div> */}
                            
                         </div>
                     </div>

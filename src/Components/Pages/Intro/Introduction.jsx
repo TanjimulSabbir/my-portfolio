@@ -4,7 +4,7 @@ function Introduction() {
     const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in harnessing the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users.`;
     return (
         <div className="UniversalPadding h-screen w-full bg-[#020202] bg-opacity-80 text-[#35a55e]">
-            <div className="lg:w-1/2 h-full mx-auto flex pt-24 md:pt-0 md:items-center justify-center  z-10">
+            <div className="lg:w-1/2 h-full flex-1 mx-auto flex pt-24 md:pt-0 md:items-center justify-center  z-10">
                 <div className="mid-lg:-mt-28">
                     <h4 className='mb-2 lato'>
                         Hi, my name is
@@ -20,8 +20,8 @@ function Introduction() {
                 </div>
             </div>
 
-            {/* <div className="flex-1 mt-10 lg:mt-0 flex items-end justify-center">
-                <img className="w-[350px] sm:w-[435px] lg:w-[550px]" src={intro} alt="TanjimulSabbir" />
+            {/* <div className="h-full w-[450px] flex items-center justify-center">
+                <img className="h-[600px] w-full rounded-[50%] border-4" src={intro} alt="TanjimulSabbir" />
             </div> */}
         </div>
     )

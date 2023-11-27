@@ -7,7 +7,6 @@ import reactjs from "../../assets/Photos/Skill-Tools/reactjs.png"
 import redux from "../../assets/Photos/Skill-Tools/redux.png"
 import reduxtoolkit from "../../assets/Photos/Skill-Tools/redux-toolkit.png"
 import firebase from "../../assets/Photos/Skill-Tools/firebase.png"
-import restfulapi from "../../assets/Photos/Skill-Tools/api.png"
 import nodejs from "../../assets/Photos/Skill-Tools/nodejs.png"
 import mongodb from "../../assets/Photos/Skill-Tools/mongodb.png"
 import github from "../../assets/Photos/Skill-Tools/github.png"
@@ -17,6 +16,7 @@ import netlify from "../../assets/Photos/Skill-Tools/netlify.png"
 
 function Skills() {
     const Tools = [html5, css3, tailwind, bootstrap, javascript, reactjs, firebase, redux, nodejs, mongodb, git, github]
+    const toolsName = ["html5", "css3", "tailwind", "bootstrap", "javascript", "reactjs", "firebase", "redux", "nodejs", "mongodb", "git", "github"]
     return (
         <div id="skill" className="lg:w-4/5 pb-24 mid-lg:py-24 mx-auto">
             <div>
@@ -28,13 +28,11 @@ function Skills() {
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-4 mid-lg:grid-cols-5 justify-around items-center gap-7">
                 {Tools.map(((tool, index) => {
-                    const parts = tool.split('/'); // Split the path by "/"
-                    const filename = parts[parts.length - 1].split('.')[0];
                     return (
                         <div key={index} className="cursor-pointer transition transform duration-500 hover:scale-110 hover:rotate-12 hover:animate-pulse opacity-50 hover:opacity-100">
                             <div className="p-4 rounded-full flex flex-col items-center justify-center">
                                 <img className="w-24" src={tool} alt={tool} />
-                                <p className="uppercase mt-2 text-sm">{filename}</p>
+                                <p className="uppercase mt-2 text-sm">{toolsName[index]}</p>
                             </div>
                         </div>
                     )

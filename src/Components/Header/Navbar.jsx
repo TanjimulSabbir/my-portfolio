@@ -2,7 +2,7 @@ import { useState } from "react"
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    const liStyle = "hover:text-custom-highLightTextColor rounded transition duration-500"
+    const liStyle = "hover:text-custom-highLightTextColor rounded transition duration-500 hover:underline hover:underline-offset-4"
     const Menu = <>
         <li className={liStyle}><a href="#about">About</a></li>
         <li className={liStyle}><a href="#experience">Experience</a></li>
@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className={`navbar py-4`}>
-            <div className="navbar flex item-center justify-end text-[#35a55e] z-50 rubik">
+            <div className="navbar flex item-center justify-end text-[#35a55e] z-50 rubik ">
                 <div className="md:hidden">
                     <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline UniversalMargin mr-0 text-4xl border-none hover:bg-transparent md:hidden">
                         <p className={`${open && "transition duration-700 transform rotate-90"}`}>{open ? <RxCross1 /> : <RxHamburgerMenu />}</p>

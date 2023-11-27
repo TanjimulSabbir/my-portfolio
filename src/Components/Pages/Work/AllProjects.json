@@ -33,7 +33,7 @@
         },
         {
             "projectName": "Drake Porfolio",
-            "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
+            "Description": "This is a portfolio website designed to enhance my skills in design. The site incorporates various features, including two types of navigation bars. Users have the flexibility to adjust the background color and text color to suit their preferences for a more comfortable experience. I aim to provide a dynamic user experience through this site.",
             "image": "https://i.ibb.co/9rdwrcJ/drake-portfolio-cut.png",
             "Technologies":[ "HTML", "CSS","TailwindCSS", "Javascript"],
             "Links": {
@@ -44,7 +44,7 @@
         },
         {
             "projectName": "Tic-Tac-Toe",
-            "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
+            "Description": "Tic-Tac-Toe holds a special place in my personal interests. One day, I stumbled upon this game on social media and felt inspired to create it myself. I kept it simple, using just vanilla JavaScript. If time permits, I plan to implement a 'play against the computer' feature in the future. Additionally, I've included sound effects for wins and losses, aiming to provide users with a more vibrant gaming experience. Enjoy the game!",
             "image": "https://i.ibb.co/GCBnQNT/Screenshot-2023-09-04-062032.png",
             "Technologies":[ "HTML", "CSS","TailwindCSS", "Javascript"],
             "Links": {

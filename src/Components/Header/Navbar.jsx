@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                     </ul>
                 </div>
-                <a href='/' className="w-[100px] lg:mx-10 flex justify-end">
+                <a href='/' className="w-[100px] flex justify-end">
                     <img className="w-1/2" src={Logo} alt="TanjimulSabbir" />
                 </a>
             </div>

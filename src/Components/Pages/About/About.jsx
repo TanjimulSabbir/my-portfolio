@@ -8,7 +8,7 @@ const About = () => {
                 <div className="flex-1">
                     <div className='text-justify'>
                         <p>
-                            <span className='text-xl text-custom-highLightTextColor'>H</span>i there
+                            <span className='text-xl text-custom-highLightTextColor'>H</span>i, there!
                             I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began. Now, I'm studying in Rajshahi University. I got my first own computer at university and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
                         </p>
                         <br />
@@ -18,7 +18,7 @@ const About = () => {
                    
                         <p>
                             <strong className=""> While I've explored backend technologies like </strong> Node.js,
-                            Express.js, and MongoDB, my heart truly belongs to the front end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in solving Complex UI things work seamlessly. I more prefer to work with complex UI logic more than design. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving complex logic. I also love problem solving.
+                            Express.js, and MongoDB, I feel truly belongs to the back end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in solving complex Logic things work seamlessly. I more prefer to work with complex UI logic than design. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving logic. I also love problem solving.
                         </p>
                    <br />
                         <p>

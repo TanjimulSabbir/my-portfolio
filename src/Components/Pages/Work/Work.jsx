@@ -3,23 +3,20 @@ import { LuExternalLink } from "react-icons/lu";
 import { FiGithub } from "react-icons/fi";
 
 const Work = () => {
-	const backgroundImage = 'https://i.ibb.co/mzRSWTb/bed06.jpg';
-	console.log(AllProjects, "AllProjects")
-
 	return (
 		<div id='work' className='pb-24 mid-lg:py-24 mx-auto overflow-hidden'>
 			{/* Heading */}
-			<h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-14'>Some Things I've built<span className="hidden mid-lg:Section-Heading"></span></h1>
+			<h1 className='Exo2 TitleText font-bold text-[#ccd6f6]'>Some Things I've built<span className="hidden mid-lg:Section-Heading"></span></h1>
 
 			{/* Projects */}
 			{
-				AllProjects?.Projects.map(project => {
+				AllProjects?.Projects.map((project,index) => {
 					const { projectName, Description, image, Technologies, Links } = project;
 					return (
 						<>
-							<div className="relative mt-16 lg:mt-32 lg:w-2/3 mx-auto">
+							<div className={`relative mt-16 ${index===0?"lg:mt-20":"lg:mt-32"} lg:w-2/3 mx-auto`}>
 								<h2 className="mb-2 text-custom-highLightTextColor">Featured Project</h2>
-								<h1 onClick={() => window.location.href(Links.live)} className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2">
+								<h1 onClick={() => window.location.href=(Links.live)} target="_blank" className="mb-8 text-custom-TitleColor text-3xl transition duration-500 cursor-pointer hover:text-custom-afterHoverTextColor Exo2">
 									{projectName}
 								</h1>
 

@@ -2,7 +2,7 @@ import TanjimulSabbir from "../../../assets/Photos/About/Screenshot_20220427-084
 const About = () => {
     return (
         <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
-            <h1 className='TitleText font-bold text-[#ccd6f6] mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
+            <h1 className='TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
             <div className="mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
                 <div className="flex-1">

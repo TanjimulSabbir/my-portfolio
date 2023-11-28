@@ -5,7 +5,7 @@ const Experience = () => {
         <div id='experience' className='lg:w-3/5 pb-24 mid-lg:py-24 mx-auto'>
             {/* Heading */}
             <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14'>Where I'v worked<span className="hidden mid-lg:Section-Heading"></span></h1>
-            <div className='mt-14 md:flex md:space-x-20 md:justify-center'>
+            <div className='mt-8 sm:mt-14 md:flex md:space-x-20 md:justify-center'>
                     <div className="text-custom-highLightTextColor text-base">
                         <h1 className="pb-3 md:pb-0 underline md:no-underline underline-offset-8 text-lg">Inventive</h1>
                         {/* <hr className="bg-custom-highLightTextColor"/> */}

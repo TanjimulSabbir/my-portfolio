@@ -6,7 +6,7 @@ const About = () => {
 
             <div className="mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
                 <div className="flex-1">
-                    <div className='text-justify'>
+                    <div className='sm:text-justify'>
                         <p>
                             <span className='text-xl text-custom-highLightTextColor'>H</span>i, there!
                             I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began. Now, I'm studying in Rajshahi University. I got my first own computer at university and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.

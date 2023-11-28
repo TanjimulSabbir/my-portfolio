@@ -19,7 +19,7 @@
     }
 
     .TitleText {
-        @apply text-3xl;
+        @apply  text-2xl sm:text-3xl;
     }
 
     .UniversalPadding {

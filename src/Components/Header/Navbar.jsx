@@ -3,34 +3,34 @@ import Logo from "../../assets/Photos/Logo/android-chrome-512x512.png"
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    const liStyle = "hover:text-custom-highLightTextColor rounded transition duration-500 hover:underline hover:underline-offset-4"
+    const liStyle = "hover:text-white rounded transition duration-500 hover:underline underline-offset-4"
     const Menu = <>
-        <li className={liStyle}><a href="#about">About</a></li>
-        <li className={liStyle}><a href="#experience">Experience</a></li>
-        <li className={liStyle}><a href="#work">Works</a></li>
-        <li className={liStyle}><a href="#skill">Skills</a></li>
-        <li className={liStyle}><a href="#contact">Contact</a></li>
-        <li className={liStyle}><a href="#blog">Blog</a></li>
-        <li className={liStyle}><a href="#Resume">Resume</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#about">About</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#experience">Experience</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#work">Works</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#skill">Skills</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#contact">Contact</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#blog">Blog</a></li>
+        <li onClick={()=>setOpen(false)} className={liStyle}><a href="#Resume">Resume</a></li>
     </>
 
     return (
         <div className={`navbar py-4`}>
             <div className="navbar flex item-center justify-between text-[#35a55e] z-50 rubik ">
                 <div className="md:hidden">
-                    <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline  mr-0 text-4xl border-none hover:bg-transparent md:hidden">
+                    <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline  mr-0 text-4xl border-none hover:bg-transparent text-green-500 hover:text-green-600 md:hidden">
                         <p className={`${open && "transition duration-700 transform rotate-90"}`}>{open ? <RxCross1 /> : <RxHamburgerMenu />}</p>
                     </label>
                     <ul tabIndex={0} className={`${open || "hidden"} fixed inset-0 px-6 py-24 shadow w-screen h-screen space-y-8 bg-[#35a55e] uppercase text-black`}>
                         {Menu}
                         <div className="absolute top-0 right-1">
-                            <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline  text-4xl border-none hover:bg-transparent text-black md:hidden">
+                            <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline text-4xl border-none hover:bg-transparent text-black md:hidden mr-4">
                                 <p className={`${open && "transition duration-700 transform rotate-90"}`}>{open ? <RxCross1 /> : <RxHamburgerMenu />}</p>
                             </label>
                         </div>
                     </ul>
                 </div>
-                <a href='/' className="w-[100px] lg:mx-10">
+                <a href='/' className="w-[100px] lg:mx-10 flex justify-end">
                     <img className="w-1/2" src={Logo} alt="TanjimulSabbir" />
                 </a>
             </div>

@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Home from './Components/Pages/Home'
 import Introduction from './Components/Pages/Intro/Introduction'
+import ScrollToTopButton from './Components/Shared/ScrollUp'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Introduction />
       </div>
       <Home />
+      <ScrollToTopButton/>
     </div>
   )
 }

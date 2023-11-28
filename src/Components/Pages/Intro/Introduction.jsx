@@ -14,9 +14,9 @@ function Introduction() {
                         Tanjimul Islam Sabbir
                     </h2>
 
-                    <h1 className="mt-1 lato tracking-wider">Front-end Developer | Reactjs Developer</h1>
+                    <h1 className="text-xs md:text-base mt-1 lato tracking-wider">Front-end Developer | Reactjs Developer</h1>
 
-                    <p className="mt-7 lato pl-0 text-green-500">{text}</p>
+                    <p className="text-sm md:text-base mt-7 lato pl-0 text-green-500">{text}</p>
 
                     <button onClick={() => window.location.href = "#contact"} className="mt-6 uppercase border-2 rounded border-green-500 px-14 py-4 inline-block">
                         Get in touch

@@ -12,15 +12,15 @@ const Experience = () => {
                     </div>
                 <div>
                     <div className="md:border-l border-custom-highLightTextColor md:pl-4">
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center space-x-3 text-xs sm:text-base">
                             <h1>Jr Front-end Developer -</h1>
-                            <p className="text-custom-highLightTextColor text-xs sm:text-base">@Inventive Web Service</p>
+                            <p className="text-custom-highLightTextColor ">@Inventive Web Service</p>
                         </div>
-                        <div className="">
+                        <div className="text-xs sm:text-base">
                             <small>May 2023 - July 2023</small>
                         </div>
                         <div className="space-y-3 mt-5">
-                        <div className="flex space-x-2">
+                        <div className="flex space-x-2 text-xs sm:text-base">
                                 <CiLocationArrow1 className="text-xl w-10 text-custom-highLightTextColor" />
                                 <p className="text-custom-TextColor text-sm text-justify">At Inventive Web Service, I had the valuable opportunity to learn how to collaborate effectively within a team. This experience taught me the importance of teamwork, communication, and sharing ideas to achieve common goals.</p>
                             </div>

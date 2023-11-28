@@ -18,7 +18,7 @@ function Introduction() {
 
                     <p className="text-sm md:text-base mt-7 lato pl-0 text-green-500">{text}</p>
 
-                    <button onClick={() => window.location.href = "#contact"} className="mt-6 uppercase border-2 rounded border-green-500 px-14 py-4 inline-block">
+                    <button onClick={() => window.location.href = "#contact"} className="mt-10 uppercase border-2 rounded border-green-500 px-14 py-4 inline-block">
                         Get in touch
                     </button>
 

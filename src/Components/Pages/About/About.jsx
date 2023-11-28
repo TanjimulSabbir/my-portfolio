@@ -1,4 +1,4 @@
-import TanjimulSabbir from "../../../assets/Photos/About/red-wall-bg-white.png"
+import TanjimulSabbir from "../../../assets/Photos/About/Screenshot_20220427-084825.jpg"
 const About = () => {
     return (
         <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>

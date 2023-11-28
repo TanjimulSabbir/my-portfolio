@@ -3,7 +3,7 @@
         {
             "projectName": "Paradise Palms",
             "Description": "Paradise Palm Resort – the ultimate getaway for guests. Explore a range of services, thoughtfully categorized for user convenience. Every service features detailed information and an appealing offers page, ensuring seamless updates. Booking desired services is easy, with a personalized dashboard to keep users informed about upcoming reservations. User can elevate their experience, inspiring repeat bookings and a world of vibrant memories.",
-            "image": "https://i.ibb.co/QPbynTz/bed06.jpg",
+            "image": "https://i.ibb.co/fNYm3TB/paradise-palms.png",
             "Technologies": ["Reactjs", "Javascript", "TailwindCSS", "Firebase", "RestAPI", "Nodejs", "Expressjs", "MongoDB"],
             "Links": {
                 "github": "https://github.com/TanjimulSabbir/Paradise-Palms-Resort-Client-Site",
@@ -23,7 +23,7 @@
         {
             "projectName": "Glimpses",
             "Description": "Glimpses is a simple and beautiful interface to capture peoples's thoughts and moments. Use glimpses as a personal journal to track user's daily activities, record travels, people can meet. I just design it by myself. I'm doing it just for grow up my designing skill. If possible later, I will make an app like glimpses daybook type app.",
-            "image": "https://i.ibb.co/h9Fzd2X/Glimpses-cut.png",
+            "image": "https://i.ibb.co/pdwyKPx/glimpses-A-simple-and-minimal-journal-app-2.png",
             "Technologies":[ "Javascript", "Reactjs", "CSS","TailwindCSS", "React-Icons"],
             "Links": {
                 "github": "https://github.com/TanjimulSabbir/glimpses---A-simple-and-minimal-journal-app",
@@ -45,7 +45,7 @@
         {
             "projectName": "Tic-Tac-Toe",
             "Description": "Tic-Tac-Toe holds a special place in my personal interests. One day, I stumbled upon this game on social media and felt inspired to create it myself. I kept it simple, using just vanilla JavaScript. If time permits, I plan to implement a 'play against the computer' feature in the future. Additionally, I've included sound effects for wins and losses, aiming to provide users with a more vibrant gaming experience. Enjoy the game!",
-            "image": "https://i.ibb.co/GCBnQNT/Screenshot-2023-09-04-062032.png",
+            "image": "https://i.ibb.co/gFBbjqs/Tic-Tac-Toe.png",
             "Technologies":[ "HTML", "CSS","TailwindCSS", "Javascript"],
             "Links": {
                 "github": "https://github.com/TanjimulSabbir/Tic-Tac-Toe",

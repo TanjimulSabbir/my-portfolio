@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className={`navbar py-4`}>
             <div className="navbar flex item-center justify-between text-[#35a55e] z-50 rubik ">
                 <div className="md:hidden">
-                    <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline  mr-0 text-4xl border-none hover:bg-transparent text-green-500 hover:text-green-600 md:hidden">
+                    <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline mr-0 text-4xl border-none hover:bg-transparent text-green-500 hover:text-green-600 md:hidden">
                         <p className={`${open && "transition duration-700 transform rotate-90"}`}>{open ? <RxCross1 /> : <RxHamburgerMenu />}</p>
                     </label>
                     <ul tabIndex={0} className={`${open || "hidden"} fixed inset-0 px-6 py-24 shadow w-screen h-screen space-y-8 bg-[#35a55e] uppercase text-black`}>

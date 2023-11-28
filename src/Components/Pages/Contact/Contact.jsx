@@ -8,7 +8,7 @@ const Contact = () => {
             <div>
                 <div className='mb-10 mid-lg:mb-20 lg:text-center'>
                     <h1 className='Exo2 TitleText font-bold text-[#ccd6f6] mb-5'>Get In Touch</h1>
-                    <p className="text-custom-BgColor rubik ">I’m currently looking for any new opportunities. Need a front-end developer? Have any question or proposal? Or just want to say hello, I’ll try my best to get back to you!
+                    <p className="text-custom-BgColor rubik text-xs sm:text-base">I’m currently looking for any new opportunities. Need a front-end developer? Have any question or proposal? Or just want to say hello, I’ll try my best to get back to you!
                     </p>
                 </div>
                 <div className='sm:grid grid-rows-2 rubik text-custom-TextColor '>

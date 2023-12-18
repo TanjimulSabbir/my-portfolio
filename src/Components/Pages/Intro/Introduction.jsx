@@ -1,7 +1,7 @@
 import intro from "../../../assets/Photos/Bg-Removed/laugh02.png"
 import Typewriter from "./TextAnimation";
 function Introduction() {
-    const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. My expertise lies in the power of Javascript, React.js, Tailwind CSS, Redux, and other cutting-edge technologies to craft seamless web experiences that engage and captivate users. I especailly prefer impleamenting logical part more than design.`;
+    const text = `I'm a skilled front-end developer with a passion for building dynamic and interactive websites. I'm really good at using JavaScript, React.js, Tailwind CSS, Redux, and the latest tech to create smooth and awesome websites. I like design, but I really enjoy smoothly solving tricky problems.`;
     return (
         <div className="UniversalPadding h-screen w-full bg-black bg-opacity-90 dark:bg-opacity-90 text-green-500">
             <div className="lg:w-1/2 h-full flex-1 mx-auto flex pt-24 md:pt-0 md:items-center justify-center  z-10">

@@ -13,14 +13,14 @@ const About = () => {
                         </p>
                         <br />
                         <p>
-                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Bootstrap. But it was when I discovered tools like Tailwind CSS, Material UI, and JavaScript that my real passion ignited. React.js became my playground, and Redux joined the mix for smoother operations.
+                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Javascript. But it was when I discovered tools like TailwindCSS, Bootstrap, and JavaScript that my real passion ignited. My playground is now React.js, with Redux added for more seamless operations.
                         </p>
-                   
+
                         <p>
                             <strong className=""> While I've explored backend technologies like </strong> Node.js,
-                            Express.js, and MongoDB, I feel truly belongs to the back end. I thrive on solving intricate problems and creating interactive user experiences. Design is cool, but I find my joy in solving complex Logic things work seamlessly. I more prefer to work with complex UI logic than design. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving logic. I also love problem solving.
+                            Express.js, and MongoDB, I feel truly belongs to the backend. I thrive on solving intricate problems and creating interactive user experiences.I like design, but I really enjoy smoothly solving tricky problems. I more prefer to work with complex UI logic than others. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving logic. I also love problem solving.
                         </p>
-                   <br />
+                        <br />
                         <p>
                             <strong className=''>I recently had an opportunity, </strong>
                             to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is a things that helps achieve something super fast. I believe in the power of teamwork, where every talk matters.

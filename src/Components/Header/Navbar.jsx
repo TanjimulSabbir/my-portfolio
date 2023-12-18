@@ -5,7 +5,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     const liStyle = "md:hover:text-[#35a55e] rounded transition duration-300 hover:underline underline-offset-4"
     const Menu = <>
-        <li onClick={() => setOpen(false)} className={`${liStyle} ${open|| "md:underline"}`}><a href="#about">About</a></li>
+        <li onClick={() => setOpen(false)} className={`${liStyle} ${"md:underline"}`}><a href="#about">About</a></li>
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#experience">Experience</a></li>
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#work">Works</a></li>
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#skill">Skills</a></li>

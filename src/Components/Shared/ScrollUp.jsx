@@ -28,7 +28,7 @@ function ScrollToTopButton() {
       behavior: "smooth"
     });
   };
-
+  
   const scrollToBottom = () => {
     window.scroll({
       top: document.documentElement.scrollHeight,
@@ -44,7 +44,7 @@ function ScrollToTopButton() {
       </VscTriangleUp>
       <VscTriangleDown title="Scroll Down" className="text-2xl cursor-pointer p-1 hover:text-green-500" onClick={scrollToBottom} />
     </div>
-  );
+  )
 }
 
 export default ScrollToTopButton;

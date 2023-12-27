@@ -3,13 +3,14 @@ import { CiTwitter } from 'react-icons/ci';
 import { GrMedium } from 'react-icons/gr';
 import { BsDiscord } from 'react-icons/bs';
 import { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 const Contact = () => {
-    const [message, setMessage] = useState({ name: "", email: "", message: "" });
+    const [message, setMessage] = useState({ name: "", subject: "", message: "" });
 
     const handleMessage = () => {
         if (message.name !== "") {
             const emailLink = document.createElement('a');
-            emailLink.href = `mailto:tanjimulsabbir.dev@gmail.com?subject=Say%20Hello!&body=Hi, Tanjimul Sabbir,%0D%0A I'm ${message?.name}. ${message?.message}`;
+            emailLink.href = `mailto:tanjimulsabbir.dev@gmail.com?subject=${message.subject}!&body=Hi, Tanjimul Sabbir,%0D%0A I'm ${message?.name}. ${message?.message}`;
 
             emailLink.target = '_blank'; // Opens the email link in a new tab/window
 
@@ -22,8 +23,7 @@ const Contact = () => {
             // Remove the link from the document body (optional)
             document.body.removeChild(emailLink);
         } else {
-            // Handle if message.name is empty (optional)
-            console.log("Name is empty. Cannot send email.");
+            toast.error("No message found!")
         }
     };
 
@@ -46,9 +46,9 @@ const Contact = () => {
                                 className="ContactPlaceHolder border-custom-TextColor placeholder:rubik mt-3" />
                         </div>
                         <div className="mb-7 flex flex-col">
-                            <label htmlFor="email" className="text-xs">Email</label>
-                            <input onChange={(event) => setMessage((pre) => ({ ...pre, email: event.target.value }))}
-                                type="email" name="email" id="email" placeholder="Enter email address"
+                            <label htmlFor="email" className="text-xs">Subject Line</label>
+                            <input onChange={(event) => setMessage((pre) => ({ ...pre, subject: event.target.value }))}
+                                type="text" name="subject" id="subject" placeholder="Subject"
                                 className="ContactPlaceHolder border-custom-TextColor placeholder:rubik mt-3" />
                         </div>
                     </div>
@@ -80,6 +80,7 @@ const Contact = () => {
                     <a className='list-none LinkHover' href="https://discord.gg/bJmU6BtX" target='_blank'><BsDiscord /> </a>
                 </div>
             </div>
+            <Toaster position="top-center" />
         </div>
     )
 }

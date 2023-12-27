@@ -28,7 +28,7 @@ function ScrollToTopButton() {
       behavior: "smooth"
     });
   };
-  
+
   const scrollToBottom = () => {
     window.scroll({
       top: document.documentElement.scrollHeight,

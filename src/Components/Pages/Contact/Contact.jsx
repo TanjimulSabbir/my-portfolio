@@ -19,7 +19,7 @@ const Contact = () => {
 
             // Programmatically trigger a click event
             emailLink.click();
-
+            toast.dismiss("Please, send your message from email!")
             // Remove the link from the document body (optional)
             document.body.removeChild(emailLink);
         } else {
@@ -46,7 +46,7 @@ const Contact = () => {
                                 className="ContactPlaceHolder border-custom-TextColor placeholder:rubik mt-3" />
                         </div>
                         <div className="mb-7 flex flex-col">
-                            <label htmlFor="email" className="text-xs">Subject Line</label>
+                            <label htmlFor="email" className="text-xs">Theme</label>
                             <input onChange={(event) => setMessage((pre) => ({ ...pre, subject: event.target.value }))}
                                 type="text" name="subject" id="subject" placeholder="Subject"
                                 className="ContactPlaceHolder border-custom-TextColor placeholder:rubik mt-3" />

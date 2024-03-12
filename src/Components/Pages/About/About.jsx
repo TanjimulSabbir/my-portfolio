@@ -1,4 +1,5 @@
-import TanjimulSabbir from "../../../assets/Photos/About/Screenshot_20220427-084825.jpg"
+import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg"
+
 const About = () => {
     return (
         <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
@@ -38,11 +39,10 @@ const About = () => {
 
                     <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
 
-                        <img className="w-[300px] h-[360px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
+                        <img className="w-[300px] h-[360px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor grayscale"
                             src={TanjimulSabbir}
                             alt="TanjimulSabbir"
                         />
-                        {/* <div className="absolute w-full h-full mb-8 mr-8 rounded-lg bg-custom-highLightTextColor transition duration-700 bg-opacity-50 hover:bg-opacity-0 transform"></div> */}
                     </div>
                 </div>
             </div>

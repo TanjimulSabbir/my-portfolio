@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div className={`navbar py-4`}>
-            <div className="navbar flex item-center justify-between text-white z-50 rubik ">
+            <div className="navbar flex item-center justify-between text-white z-50 rubik">
                 <div className="md:hidden">
                     <label tabIndex={0} onClick={() => setOpen(!open)} className="btn btn-outline mr-0 text-4xl border-none -ml-2 hover:bg-transparent text-green-500 hover:text-green-600 md:hidden">
                         <p className={`${open && "transition duration-700 transform rotate-90"}`}>

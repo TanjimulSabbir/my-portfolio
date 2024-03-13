@@ -1,6 +1,11 @@
-import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg"
+import { useScroll, useTransform, useViewportScroll } from "framer-motion";
+import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg";
+import { motion } from "framer-motion";
 
 const About = () => {
+    const { scrollYProgress } = useViewportScroll()
+    const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
+
     return (
         <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
@@ -46,7 +51,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

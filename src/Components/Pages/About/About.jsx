@@ -1,6 +1,6 @@
 import { useScroll, useTransform, useViewportScroll } from "framer-motion";
 import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg";
-import { motion } from "framer-motion";
+import "../../../style/animation.css"
 
 const About = () => {
     const { scrollYProgress } = useViewportScroll()
@@ -10,8 +10,8 @@ const About = () => {
         <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
             <h1 className='TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
 
-            <div className="mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
-                <div className="flex-1">
+            <div className="topSlider mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
+                <div className="rightSlider flex-1">
                     <div className='sm:text-justify'>
                         <p>
                             <span className='text-xl text-custom-highLightTextColor'>H</span>ey there! I'm Tanjimul Islam Sabbir, a front-end developer passionate about creating awesome websites. I started coding during my university days and fell in love with building cool stuff online.
@@ -39,7 +39,7 @@ const About = () => {
                         <p> <strong className=''>Here's to coding, </strong>  creativity, and my shared journey!</p>
                     </div>
                 </div>
-                <div className="mid-lg:w-1/3 flex items-center justify-center mt-20 mid-lg:mt-0 group cursor-pointer ">
+                <div className="leftSlider mid-lg:w-1/3 flex items-center justify-center mt-20 mid-lg:mt-0 group cursor-pointer ">
 
                     <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
 

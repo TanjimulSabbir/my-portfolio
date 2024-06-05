@@ -13,7 +13,7 @@ const Navbar = () => {
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#skill">Skills</a></li>
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#contact">Contact</a></li>
         <li onClick={() => setOpen(false)} className={liStyle}><a href="#blog">Blog</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="https://drive.google.com/file/d/1tXYj5Hvg0BgHQteIEHSngNGkqzM7qtpT/view?usp=drive_link" target="_blank">Resume</a></li>
+        <li onClick={() => setOpen(false)} className={liStyle}><a href="https://drive.google.com/file/d/14xMOOPRZa92Nmscj1vAcH1UBiwygs63O/view?usp=sharing" target="_blank">Resume</a></li>
     </>
 
     return (

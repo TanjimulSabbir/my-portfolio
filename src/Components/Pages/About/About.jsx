@@ -14,25 +14,24 @@ const About = () => {
                 <div className="flex-1">
                     <div className='sm:text-justify'>
                         <p>
-                            <span className='text-xl text-custom-highLightTextColor'>H</span>i, there!
-                            I'm Tanjimul Islam Sabbir. I'm a front-end developer with a love for turning code into amazing web experiences. In the vibrant year of 2021, a transformative chapter began. Now, I'm studying in Rajshahi University. I got my first own computer at university and soon found myself falling in love with coding. Python was my first language, and it opened the door to a world of my programmimg.
-                        </p>
-                        <br />
-                        <p>
-                            <strong className=''> As time passed, </strong>  I got into web technologies – things like HTML, CSS, and Javascript. But it was when I discovered tools like TailwindCSS, Bootstrap, and JavaScript that my real passion ignited. My playground is now React.js, with Redux added for more seamless operations.
+                            <span className='text-xl text-custom-highLightTextColor'>H</span>ey there! I'm Tanjimul Islam Sabbir, a front-end developer passionate about creating awesome websites. I started coding during my university days and fell in love with building cool stuff online.
                         </p>
 
+                        <br />
                         <p>
-                            <strong className=""> While I've explored backend technologies like </strong> Node.js,
-                            Express.js, and MongoDB, I feel truly belongs to the backend. I thrive on solving intricate problems and creating interactive user experiences.I like design, but I really enjoy smoothly solving tricky problems. I more prefer to work with complex UI logic than others. Most of my working time, I personally focus on write more readable, concise and clean code. Most of my time of coding pass on solving logic. I also love problem solving.
+                            <strong className="text-custom-highlight">🚀 Expertise in Front-end Development:</strong> I've delved into the world of web technologies, mastering HTML, CSS, and JavaScript. However, it was the discovery of tools like Tailwind CSS, Bootstrap, and the power of React.js that ignited my passion. With Redux Toolkit, I've streamlined state management for seamless user interactions, driving my ambition to craft exceptional digital experiences.
+                            With over 1 year of experience in JavaScript, React.js, Tailwind CSS, Redux, Redux Toolkit, Next.js, and TypeScript.
                         </p>
                         <br />
                         <p>
-                            <strong className=''>I recently had an opportunity, </strong>
-                            to work with a great company in India. Although I had to step back after 2 months due to my university's class and exam, the experience taught me a lot and fueled my commitment to learning and growth. Collaboration is a things that helps achieve something super fast. I believe in the power of teamwork, where every talk matters.
+                            <strong>🥂 Proficient in both front-end and back-end technologies,</strong> I've contributed to numerous projects, collaborating with startups and diverse teams. While I prioritize clean code and elegant design, I excel in problem-solving and crafting intricate UI logic. Committed to continuous learning and growth, I thrive in team environments and welcome challenging tasks.
                         </p>
+
+
+                        <br />
+
                         <p>
-                            <strong className=''>Outside of coding, </strong>
+                            <strong>☘️ Outside of coding, </strong>
                             Gardening is my hobby. I have an indoor garden.
                             I enjoy nature photograpy and music, which adds a dash of inspiration to my work.
                         </p>

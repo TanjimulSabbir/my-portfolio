@@ -74,7 +74,7 @@ const Contact = () => {
                 <div className='flex items-center space-x-3 mt-3'>
                     <a className='list-none LinkHover' href="https://github.com/TanjimulSabbir" target='_blank'><FiGithub /> </a>
                     <a className='list-none LinkHover' href="https://www.linkedin.com/in/TanjimulSabbir" target='_blank'><FiLinkedin /> </a>
-                    <a className='list-none LinkHover' href="https://www.facebook.com/tanjimulsabbir.brahminykite" target='_blank'><FiFacebook /> </a>
+                    <a className='list-none LinkHover' href="https://www.facebook.com/tanjimulsabbir.devel" target='_blank'><FiFacebook /> </a>
                     <a className='list-none LinkHover' href="https://medium.com/@TanjimulSabbir" target='_blank'><GrMedium /> </a>
                     <a className='list-none text-xl LinkHover' href="https://twitter.com/@TanjimulSabbir" target='_blank'><CiTwitter /> </a>
                     <a className='list-none LinkHover' href="https://discord.gg/bJmU6BtX" target='_blank'><BsDiscord /> </a>

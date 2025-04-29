@@ -12,7 +12,7 @@ function Introduction() {
                         Tanjimul Islam Sabbir
                     </h2>
 
-                    <h1 className="leftSlider text-xs md:text-base mt-1 lato tracking-wider">Front-end Developer || ReactJS Developer</h1>
+                    <h1 className="leftSlider text-xs md:text-base mt-1 lato tracking-wider">Software Developer | Front-end Developer</h1>
 
                     <p className="topSlider text-sm md:text-base mt-7 lato pl-0 text-green-500">{text}</p>
 

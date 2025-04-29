@@ -1,6 +1,6 @@
-import { useScroll, useTransform, useViewportScroll } from "framer-motion";
-import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg";
-import "../../../style/animation.css"
+import { useTransform, useViewportScroll } from "framer-motion";
+import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir05.jpg.JPG";
+import "../../../style/animation.css";
 
 const About = () => {
     const { scrollYProgress } = useViewportScroll()
@@ -43,7 +43,7 @@ const About = () => {
 
                     <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
 
-                        <img className="w-[300px] h-[360px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
+                        <img className="w-[300px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
                             src={TanjimulSabbir}
                             alt="TanjimulSabbir"
                         />

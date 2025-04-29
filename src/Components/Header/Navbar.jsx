@@ -6,15 +6,39 @@ import "../../style/animation.css";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     const liStyle = "md:hover:text-[#35a55e] rounded transition duration-300 hover:underline underline-offset-4"
-    const Menu = <>
-        <li onClick={() => setOpen(false)} className={`${liStyle} ${"md:underline"}`}><a href="#about">About</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="#experience">Experience</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="#work">Works</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="#skill">Skills</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="#contact">Contact</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="#blog">Blog</a></li>
-        <li onClick={() => setOpen(false)} className={liStyle}><a href="https://drive.google.com/file/d/14xMOOPRZa92Nmscj1vAcH1UBiwygs63O/view?usp=sharing" target="_blank">Resume</a></li>
-    </>
+    const Menu = (
+      <>
+        <li
+          onClick={() => setOpen(false)}
+          className={`${liStyle} ${"md:underline"}`}
+        >
+          <a href="#about">About</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a href="#experience">Experience</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a href="#work">Works</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a href="#skill">Skills</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a href="#contact">Contact</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a href="#blog">Blog</a>
+        </li>
+        <li onClick={() => setOpen(false)} className={liStyle}>
+          <a
+            href="https://drive.google.com/file/d/1vU-euZIDRj7RorkI_ezidCakiipI8ieq/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+      </>
+    );
 
     return (
         <div className={`rightSlider navbar py-4`}>

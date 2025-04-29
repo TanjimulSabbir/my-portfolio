@@ -39,7 +39,7 @@ const Experience = () => {
           className="mt-8 sm:mt-14 md:grid md:grid-cols-[20%_85%] md:space-x-8 md:justify-center"
         >
           <div className="text-custom-highLightTextColor text-base">
-            <h1 className="flex items-center space-x-1 underline md:no-underline underline-offset-8 text-lg font-bold">
+            <h1 className="flex items-center space-x-1 underline pb-4 md:no-underline underline-offset-8 text-lg font-bold">
               <span>{exp.companyName}</span>
             </h1>
           </div>

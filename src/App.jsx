@@ -1,22 +1,28 @@
-import './App.css'
-import Header from './Components/Header/Header'
-import Home from './Components/Pages/Home'
-import Introduction from './Components/Pages/Intro/Introduction'
-import ScrollToTopButton from './Components/Shared/ScrollUp'
-import "./style/animation.css"
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Pages/Home";
+import Introduction from "./Components/Pages/Intro/Introduction";
+import ScrollToTopButton from "./Components/Shared/ScrollUp";
+import "./style/animation.css";
+import bg from "./assets/Photos/About/landscape-scenery-peak-hill-famous.jpg";
 
 function App() {
-
   return (
-    <div className='max-w-[1460px] mx-auto'>
-      <div className="bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('https://i.ibb.co/NCN77x3/photo-1606066352252-93e4d325787b-ixlib-rb-4-0.jpg')" }}>
-        <Header />
-        <Introduction />
+    <div className="bg-[#000000c7]">
+      <div
+        className="relative w-full h-screen bg-cover bg-center bg-no-repeat mx-auto"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
+        <div className="bg-[#000000e5] w-full h-full"></div>
+        <div className="absolute inset-0 max-w-[1460px] mx-auto flex flex-col items-center justify-center text-white">
+          <Header />
+          <Introduction />
+        </div>
       </div>
       <Home />
       <ScrollToTopButton />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

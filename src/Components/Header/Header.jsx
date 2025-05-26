@@ -1,11 +1,7 @@
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 
 const Header = () => {
-    return (
-      <div className="bg-[#000000c7]">
-        <Navbar></Navbar>
-      </div>
-    );
-}
+  return <Navbar></Navbar>;
+};
 
-export default Header
+export default Header;

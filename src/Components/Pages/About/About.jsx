@@ -1,4 +1,4 @@
-import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir04.jpg";
+import TanjimulSabbir from "../../../assets/Photos/About/Introduction.jpg";
 import "../../../style/animation.css";
 
 const About = () => {

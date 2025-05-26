@@ -4,7 +4,7 @@ import { MdOutlineMapsHomeWork } from "react-icons/md";
 const experiences = [
   {
     companyName: "Utech Innovation",
-    role: "Junior Software Developer",
+    role: "Junior Software Engineer",
     companyFullName: "@Utech Innovation, Dhaka",
     duration: "August 2024 – Present",
     points: [

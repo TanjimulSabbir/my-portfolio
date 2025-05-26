@@ -45,35 +45,3 @@
 .green-letter {
   color: #29fed7; /* Green color */
 }
-
-/* .red-letter {
-  color: #02a63e; /* Red color */
-/* } */
-
-
-/* .yellow-letter {
-  color: #ffc933; Yellow color
-}
-
-/* .blue-bold-letter {
-  color: #336cff; /* Blue color */
-  /* font-weight: bold; */
-/* }  */
-/* 
-.rainbow-letter {
-  background-image: linear-gradient(to left, #ff5733, #33ff75, #336cff, #ff33c9, #ffc933);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: rainbow 3s linear infinite;
-}  */
-
-/* .glow-letter {
-  color: #ff5733;
-  text-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
-}
-
-@keyframes rainbow {
-  0% { background-position: 0 0; }
-  100% { background-position: 100% 0; }
-} */ 

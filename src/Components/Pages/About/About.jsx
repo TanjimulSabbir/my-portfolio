@@ -1,60 +1,85 @@
-import { useTransform, useViewportScroll } from "framer-motion";
-import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir05.jpg.JPG";
+import TanjimulSabbir from "../../../assets/Photos/About/TanjimulSabbir.jpg";
 import "../../../style/animation.css";
 
 const About = () => {
-    const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
+  return (
+    <div id="about" className="pb-24 mid-lg:py-24 robotoFlex">
+      <h1 className="TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14">
+        About Me<span className="hidden mid-lg:Section-Heading"></span>
+      </h1>
 
-    return (
-        <div id='about' className='pb-24 mid-lg:py-24 robotoFlex'>
-            <h1 className='TitleText font-bold text-[#ccd6f6] mb-8 sm:mb-14'>About Me<span className="hidden mid-lg:Section-Heading"></span></h1>
+      <div className="topSlider mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
+        <div className="rightSlider flex-1">
+          <div className="sm:text-justify">
+            <p>
+              <span className="text-xl text-custom-highLightTextColor">H</span>
+              ey! I’m Tanjimul Islam Sabbir, a passionate Front-End Software
+              Developer dedicated to crafting high-quality, scalable web
+              applications and intuitive user experiences.
+            </p>
 
-            <div className="topSlider mid-lg:flex flex-row-reverse items-start gap-16 text-custom-TextColor text-xs md:text-sm">
-                <div className="rightSlider flex-1">
-                    <div className='sm:text-justify'>
-                        <p>
-                            <span className='text-xl text-custom-highLightTextColor'>H</span>ey there! I'm Tanjimul Islam Sabbir, a front-end developer passionate about creating awesome websites. I started coding during my university days and fell in love with building cool stuff online.
-                        </p>
+            <br />
+            <p>
+              <strong className="text-custom-highlight">🚀 What I Do:</strong>{" "}
+              With solid expertise in React.js, TypeScript, Redux Toolkit, and
+              Tailwind CSS, I build responsive and dynamic web applications that
+              solve real-world problems. I have hands-on experience developing
+              complex features such as real-time communication (video/audio
+              calling, chat), multi-language support, and seamless form
+              validation using React Hook Form and Zod. My journey started with
+              mastering core web technologies — HTML, CSS, and JavaScript — and
+              evolved to include cutting-edge libraries and tools like ShadCN,
+              Ant Design, RTK Query, and Material UI.
+            </p>
+            <br />
+            <p>
+              <strong> 💼 Professional Experience:</strong> I’ve contributed to
+              diverse projects — from e-commerce platforms and travel booking
+              systems to social media apps — collaborating closely with backend
+              teams to integrate APIs and optimize user interactions. Whether
+              leading feature development or enhancing UI/UX design, I thrive on
+              delivering clean, maintainable code and scalable front-end
+              architectures
+            </p>
 
-                        <br />
-                        <p>
-                            <strong className="text-custom-highlight">🚀 Expertise in Front-end Development:</strong> I've delved into the world of web technologies, mastering HTML, CSS, and JavaScript. However, it was the discovery of tools like Tailwind CSS, Bootstrap, and the power of React.js that ignited my passion. With Redux Toolkit, I've streamlined state management for seamless user interactions, driving my ambition to craft exceptional digital experiences.
-                            With over 1 year of experience in JavaScript, React.js, Tailwind CSS, Redux, Redux Toolkit, Next.js, and TypeScript.
-                        </p>
-                        <br />
-                        <p>
-                            <strong>🥂 Proficient in both front-end and back-end technologies,</strong> I've contributed to numerous projects, collaborating with startups and diverse teams. While I prioritize clean code and elegant design, I excel in problem-solving and crafting intricate UI logic. Committed to continuous learning and growth, I thrive in team environments and welcome challenging tasks.
-                        </p>
+            <br />
 
+            <p>
+              <strong>☘️ Outside of coding, </strong>
+              I’m deeply curious about philosophy, existentialism, theology, and
+              history—topics that inspire me to think about human life,
+              civilization, and our place in the world. I believe that exploring
+              these ideas enriches my creativity and problem-solving mindset,
+              helping me approach challenges with a thoughtful and open
+              perspective. work.
+            </p>
+            <br />
+            <p>
+              <strong>🎋 Outside of Mind, </strong>
+              When I’m not working or reading, I enjoy tending my indoor garden,
+              capturing nature through photography, and listening to music — all
+              of which bring me balance and inspiration.
+            </p>
+            <br />
+            <p>
+              {" "}
+              <strong className="">Here's to coding, </strong> creativity, and
+              my shared journey!
+            </p>
+          </div>
+        </div>
+        <div className="leftSlider mid-lg:w-1/3 flex items-center justify-center mt-20 mid-lg:mt-0 group cursor-pointer ">
+          <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
+            <img
+              className="h-[350px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
+              src={TanjimulSabbir}
+              alt="TanjimulSabbir"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-                        <br />
-
-                        <p>
-                            <strong>☘️ Outside of coding, </strong>
-                            Gardening is my hobby. I have an indoor garden.
-                            I enjoy nature photograpy and music, which adds a dash of inspiration to my work.
-                        </p>
-                        <br />
-                        <p> <strong className=''>Here's to coding, </strong>  creativity, and my shared journey!</p>
-                    </div>
-                </div>
-                <div className="leftSlider mid-lg:w-1/3 flex items-center justify-center mt-20 mid-lg:mt-0 group cursor-pointer ">
-
-                    <div className="flex items-center justify-center border-2 border-custom-highLightTextColor rounded-lg relative transition duration-700 transform group-hover:translate-y-8 group-hover:-rotate-6">
-
-                        <img className="w-[300px] relative rounded-lg bottom-4 right-4 hover:border-2 hover:border-custom-highLightTextColor"
-                            src={TanjimulSabbir}
-                            alt="TanjimulSabbir"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div >
-    )
-}
-
-export default About
-
-
-
+export default About;

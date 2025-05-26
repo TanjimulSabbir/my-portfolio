@@ -2,10 +2,10 @@ import Navbar from './Navbar'
 
 const Header = () => {
     return (
-        <div className='bg-[#000000db]'>
-            <Navbar></Navbar>
-        </div>
-    )
+      <div className="bg-[#000000c7]">
+        <Navbar></Navbar>
+      </div>
+    );
 }
 
 export default Header

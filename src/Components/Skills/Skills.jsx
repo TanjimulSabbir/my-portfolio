@@ -1,17 +1,20 @@
-import bootstrap from "../../assets/Photos/Skill-Tools/bootstrap.png";
+import AntDesign from "../../assets/Photos/Skill-Tools/ant.svg";
 import css3 from "../../assets/Photos/Skill-Tools/css3.png";
 import firebase from "../../assets/Photos/Skill-Tools/firebase.png";
 import git from "../../assets/Photos/Skill-Tools/git.png";
 import github from "../../assets/Photos/Skill-Tools/github.png";
 import html5 from "../../assets/Photos/Skill-Tools/html5.png";
 import javascript from "../../assets/Photos/Skill-Tools/javascript.png";
+import materialui from "../../assets/Photos/Skill-Tools/MaterialUI.png";
 import mongodb from "../../assets/Photos/Skill-Tools/mongodb.png";
 import nodejs from "../../assets/Photos/Skill-Tools/nodejs.png";
 import reactjs from "../../assets/Photos/Skill-Tools/reactjs.png";
 import redux from "../../assets/Photos/Skill-Tools/redux.png";
+import shadcn from "../../assets/Photos/Skill-Tools/shadcn.png";
 import tailwind from "../../assets/Photos/Skill-Tools/tailwind.png";
 import typescript from "../../assets/Photos/Skill-Tools/Typescript.png";
-import AntDesign from "../../assets/Photos/Skill-Tools/ant.svg";
+import zod from "../../assets/Photos/Skill-Tools/zod.png";
+
 
 function Skills() {
   const Tools = [
@@ -23,7 +26,9 @@ function Skills() {
     redux,
     tailwind,
     AntDesign,
-    bootstrap,
+    shadcn,
+    zod,
+    materialui,
     nodejs,
     firebase,
     mongodb,
@@ -39,7 +44,9 @@ function Skills() {
     "redux",
     "tailwind",
     "Ant Design",
-    "bootstrap",
+    "shadcn",
+    "Zod",
+    "Material UI",
     "nodejs",
     "firebase",
     "mongodb",

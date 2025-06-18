@@ -47,7 +47,7 @@ const Navbar = () => {
             <label
               tabIndex={0}
               onClick={() => setOpen(!open)}
-              className="btn btn-outline mr-0 text-4xl border-none -ml-2 hover:bg-transparent text-green-500 hover:text-green-600 md:hidden"
+              className="btn btn-outline mr-0 text-4xl border-none -ml-5 hover:bg-transparent text-green-500 hover:text-green-600 md:hidden"
             >
               <p
                 className={`${

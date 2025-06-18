@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     screens: {
+      xs: "360px",
       'sm': '640px',
       'md': '800px',
       'mid-lg': '1000px',
@@ -14,21 +15,21 @@ export default {
       '2xl': '1660px',
     },
     extend: {
-      fontFamily:{
-        "Calibre":['Heebo', 'sans-serif'],
-        "Fira-Mono":['Fira Mono', 'monospace'],
-        "Roboto":['Roboto Mono', 'monospace'],
-        "Exo2":['Exo 2', 'sans-serif'],
+      fontFamily: {
+        "Calibre": ['Heebo', 'sans-serif'],
+        "Fira-Mono": ['Fira Mono', 'monospace'],
+        "Roboto": ['Roboto Mono', 'monospace'],
+        "Exo2": ['Exo 2', 'sans-serif'],
       },
       colors: {
         custom: {
-          nameColor:"#212529",
-          BgColor:"#8892b0",
+          nameColor: "#212529",
+          BgColor: "#8892b0",
           TitleColor: '#ccd6f6',
-          TextColor:"#8892b0",
-          highLightTextColor:"#64ffda",
-          InfoBgColor:"#a8b2d1",
-          afterHoverTextColor:"#64ffda"
+          TextColor: "#8892b0",
+          highLightTextColor: "#64ffda",
+          InfoBgColor: "#a8b2d1",
+          afterHoverTextColor: "#64ffda"
         },
       },
     },

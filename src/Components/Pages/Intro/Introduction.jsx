@@ -5,18 +5,18 @@ function Introduction() {
   return (
     <div className="UniversalPadding h-screen w-full  text-green-500 flex flex-col md:flex-row items-center gap-10 justify-between">
       {/* Left Side - Text */}
-      <div className="leftSlider w-full md:w-1/2 h-full flex items-center justify-center pt-24 md:pt-0 z-10">
-        <div className="mid-lg:-mt-28 px-6">
+      <div className="leftSlider w-full md:w-1/2 mx-auto h-full flex items-center justify-center md:pt-0 z-10">
+        <div className="md:-mt-28 md:px-6">
           <h4 className="mb-2 lato tracking-wider">Hi, my name is</h4>
-          <h2 className="Exo2 text-2xl sm:text-3xl md:text-4xl lg:text-[55px] xl:text-6xl font-extrabold uppercase whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-sky-600 to-green-500">
+          <h2 className="Exo2 text-2xl xs:text-3xl md:text-4xl lg:text-[55px] xl:text-6xl font-extrabold uppercase whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-sky-600 to-green-500">
             Tanjimul Islam Sabbir
           </h2>
 
-          <h1 className="text-lg md:text-xl font-semibold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-600 to-pink-500 drop-shadow-md mt-2 lato">
+          <h1 className="text-xs font-bold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-green-500 drop-shadow-md mt-1 lato">
             Software Developer
           </h1>
 
-          <p className="text-sm md:text-base mt-7 lato text-green-500">
+          <p className="text-sm md:text-base mt-10 lato text-green-500">
             {text}
           </p>
 
@@ -30,11 +30,11 @@ function Introduction() {
       </div>
 
       {/* Right Side - Image */}
-      <div className="rightSlider w-full md:w-1/2 h-full flex items-center justify-end pt-10 md:pt-0">
+      <div className="hidden rightSlider w-full md:w-1/2 h-full md:flex items-center justify-end pt-10 md:pt-0">
         <img
           src={myImage} // Replace with your actual image path
           alt="Tanjimul Islam Sabbir"
-          className="border-8 border-green-500 rounded-full shadow-lg w-64 h-64 md:w-[450px] md:h-[450px] object-cover transition-transform duration-500 hover:scale-105"
+          className="border-2 border-green-500 rounded-full shadow-lg w-60 h-60 md:w-[400px] md:h-[400px] object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
     </div>

@@ -41,8 +41,10 @@ const Navbar = () => {
     );
 
     return (
-      <div className={`rightSlider flex items-center justify-between w-full py-4 pl-4`}>
-        <div className=" flex item-center justify-between text-white z-50 rubik">
+      <div
+        className={`rightSlider md:flex items-center justify-between w-full py-4 px-4 z-50`}
+      >
+        <div className="flex w-full items-center text-white z-50 rubik">
           <div className="md:hidden">
             <label
               tabIndex={0}
@@ -81,9 +83,11 @@ const Navbar = () => {
               </div>
             </ul>
           </div>
-          <a href="/" className="w-[100px]">
-            <img className="w-1/2" src={Logo} alt="TanjimulSabbir" />
-          </a>
+          <div className="w-full flex items-center justify-end md:justify-start">
+            <a href="/" >
+              <img className="w-[60px]" src={Logo} alt="TanjimulSabbir" />
+            </a>
+          </div>
         </div>
         <div className="navbar-center lg:navbar-end hidden md:flex">
           <ul className="menu-horizontal space-x-8 mr-5 uppercase text-white">

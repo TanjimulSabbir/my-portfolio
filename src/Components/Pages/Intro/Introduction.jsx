@@ -1,51 +1,77 @@
-import myImage from "../../../assets/Photos/About/TanjimulSabbir01.jpg"
+import { motion } from "framer-motion";
+import myImage from "../../../assets/Photos/About/TanjimulSabbir01.jpg";
+
 function Introduction() {
   const text = `I’m a passionate front-end software developer who loves crafting dynamic and interactive stuff. Skilled in JavaScript, React.js, Tailwind CSS, Redux Toolkit, Next.js, and TypeScript, I leverage the latest technologies to build seamless and visually stunning web experiences. While I appreciate great design, my true strength lies in solving complex problems smoothly and efficiently.`;
 
   return (
-    <div className=" h-screen w-full text-green-500 flex flex-col md:flex-row items-center gap-10 justify-between">
+    <div className="relative h-screen w-full text-green-400 flex flex-col md:flex-row items-center justify-between overflow-hidden px-4 md:px-7 gap-5">
       {/* Left Side - Text */}
-      <div className="leftSlider w-full md:w-1/2 mx-auto h-full flex items-center justify-center md:pt-0 z-10">
-        <div className="md:-mt-28 md:px-6">
-          <h4 className="mb-2 lato tracking-wider">Hi, my name is</h4>
-          <h2 className="Exo2 text-2xl xs:text-3xl md:text-4xl lg:text-[55px] xl:text-6xl font-extrabold uppercase whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-green-600 to-green-500">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="z-10 w-full md:w-1/2 h-full flex items-center justify-center"
+      >
+        <div className="pt-10 md:pt-0">
+          <h4 className="mb-2 lato tracking-wider text-sm text-gray-300">
+            Hi, my name is
+          </h4>
+          <h2 className="Exo2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-lime-500 to-green-400">
             Tanjimul Islam Sabbir
           </h2>
 
-          <h1 className="text-xs font-bold uppercase tracking-widest inline-block p-1 font-Calibre rounded ml-2 shadow-2xl bg-green-600 mt-3 text-white">
-            Software Engineer
-          </h1>
-          <h1 className="text-xs font-bold uppercase tracking-widest inline-block p-1 font-Calibre rounded ml-2 shadow-2xl bg-green-600 mt-3 text-white">
-           Problem Solver
-          </h1>
-          <h1 className="text-xs font-bold uppercase tracking-widest inline-block p-1 font-Calibre rounded ml-2 shadow-2xl bg-green-600 mt-3 text-white">
-            Naturalist
-          </h1>
-          <h1 className="text-xs font-bold uppercase tracking-widest inline-block p-1 font-Calibre rounded ml-2 shadow-2xl bg-green-600 mt-3 text-white">
-            Nihilist
-          </h1>
+          <div className="flex flex-wrap gap-2 mt-3 md:mt-4">
+            {[
+              "Software Engineer",
+              "Problem Solver",
+              "Naturalist",
+              "Nihilist",
+            ].map((title, i) => (
+              <span
+                key={i}
+                className="text-[8px] mid-lg:text-xs font-bold uppercase tracking-widest px-1 md:px-3 py-0.5 rounded shadow-md bg-green-600 text-white font-Calibre"
+              >
+                {title}
+              </span>
+            ))}
+          </div>
 
-          <p className="text-sm md:text-base mt-10 lato text-green-500">
+          <motion.p
+            className="text-xs md:text-sm mid-lg:text-base mt-8 text-green-200 leading-relaxed max-w-xl lato"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+          >
             {text}
-          </p>
+          </motion.p>
 
-          <button
+          <motion.button
             onClick={() => (window.location.href = "#contact")}
-            className="mt-10 uppercase border-2 rounded border-green-500 px-14 py-4 inline-block text-green-500 hover:bg-green-500 hover:text-black transition duration-300 ease-in-out hover:scale-105 shadow-md focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="mt-10 uppercase border-2 rounded border-green-400 px-10 py-3 text-green-400 hover:bg-green-400 hover:text-black transition duration-300 ease-in-out hover:scale-105 shadow-lg"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
             Get in touch
-          </button>
+          </motion.button>
         </div>
-      </div>
+      </motion.div>
 
       {/* Right Side - Image */}
-      <div className="hidden rightSlider w-full md:w-1/2 h-full md:flex items-center justify-end pt-10 md:pt-0">
-        <img
-          src={myImage} // Replace with your actual image path
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="hidden md:flex w-full md:w-1/2 h-full items-center justify-end pt-10 md:pt-0 z-10"
+      >
+        <motion.img
+          src={myImage}
           alt="Tanjimul Islam Sabbir"
-          className="rounded w-60 h-60 md:w-[400px] md:h-[500px] object-cover shadow-3xl transition-transform duration-500 hover:scale-105"
+          className="rounded-lg w-60 h-60 md:w-[400px] md:h-[500px] object-cover shadow-2xl"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
         />
-      </div>
+      </motion.div>
     </div>
   );
 }

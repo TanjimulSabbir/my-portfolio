@@ -17,7 +17,7 @@ function Introduction() {
           <h4 className="mb-2 lato tracking-wider text-sm text-gray-300">
             Hi, my name is
           </h4>
-          <h2 className="Exo2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-lime-500 to-green-400">
+          <h2 className="Exo2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-lime-500 to-green-400 whitespace-nowrap">
             Tanjimul Islam Sabbir
           </h2>
 
@@ -30,7 +30,7 @@ function Introduction() {
             ].map((title, i) => (
               <span
                 key={i}
-                className="text-[8px] mid-lg:text-xs font-bold uppercase tracking-widest px-1 md:px-3 py-0.5 rounded shadow-md bg-green-600 text-white font-Calibre"
+                className="text-[8px] mid-lg:text-xs font-bold uppercase tracking-widest px-1 md:px-2 py-0.5 rounded shadow-md bg-green-600 text-white font-Calibre"
               >
                 {title}
               </span>

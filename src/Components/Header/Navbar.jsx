@@ -41,8 +41,8 @@ const Navbar = () => {
     );
 
     return (
-      <div className={`rightSlider navbar py-4`}>
-        <div className="navbar flex item-center justify-between text-white z-50 rubik">
+      <div className={`rightSlider flex items-center justify-between w-full py-4 pl-4`}>
+        <div className=" flex item-center justify-between text-white z-50 rubik">
           <div className="md:hidden">
             <label
               tabIndex={0}
@@ -81,7 +81,7 @@ const Navbar = () => {
               </div>
             </ul>
           </div>
-          <a href="/" className="w-[100px] flex justify-end">
+          <a href="/" className="w-[100px]">
             <img className="w-1/2" src={Logo} alt="TanjimulSabbir" />
           </a>
         </div>
